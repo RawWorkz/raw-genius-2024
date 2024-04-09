@@ -1,0 +1,6 @@
+<div class="anchor anchor-wrapper">
+	<div *ngIf="!isProduction" class="anchor__title">
+		<p>{{title}} #{{id}}</p>
+	</div>
+	<span [id]="id" class="anchor__holder"></span>
+</div>

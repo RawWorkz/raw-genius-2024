@@ -1,0 +1,57 @@
+// @import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
+
+@import "src/styles/abstracts/media-queries";
+
+$opacity: 0.2;
+$opacity-02: 0.2;
+$opacity-04: 0.4;
+$opacity-06: 0.6;
+// .text-highlighter {
+//   font-size: 64px;
+//   line-height: 78px;
+//   font-weight: bolder;
+//   letter-spacing: 0.8px;
+//   font-family: "Georgia,Times,Times New Roman,serif";
+// }
+// .active {
+//   color: #02dad3;
+// }
+// .not-active {
+//   color: #333333;
+// }
+// span {
+//   transition: color 2s;
+// }
+
+.container-quote {
+	padding: 1rem;
+	@include respond-above(md) {
+		padding: 6rem;
+	}
+	// background-color: black;
+
+	// font-family: "Kavoon", cursive;
+
+	// font-size: 3rem;
+	// blockquote {
+	// 	&::before {
+	// 		content: open-quote;
+	// 		// opacity: $opacity-06;
+	// 	}
+	// 	&::after {
+	// 		content: close-quote;
+	// 		// opacity: $opacity-06;
+	// 	}
+	// }
+
+	.active {
+		transition: all 2s;
+		// opacity: 1;
+		color: #02dad3;
+	}
+
+	.not-active {
+		// opacity: $opacity;
+		color: #333333;
+	}
+}

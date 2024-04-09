@@ -1,0 +1,21 @@
+<section class="container-contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-3 align-self-center">
+				<img src="./assets/images/poopicon.png" title="" alt="" class="img-fluid" />
+			</div>
+			<div class="col-4">
+				<iframe [src]="safeUrl" title="open street map" width="100%" height="100%" frameborder="0"
+					scrolling="no" marginheight="0" marginwidth="0" style="border: 1px solid black"></iframe>
+			</div>
+			<div class="col-5 align-self-center">
+				<h3>{{this.data.location.name}}</h3>
+				<p>{{this.data.location.address.street}}</p>
+				<p>{{this.data.location.address.zipcode}}</p>
+				<p>{{this.data.location.address.city}}</p>
+
+
+			</div>
+		</div>
+	</div>
+</section>

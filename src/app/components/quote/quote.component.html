@@ -1,0 +1,14 @@
+<section class="container-quote" [id]="id">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-xl-8">
+				<blockquote class="text-highlighter">
+					<span *ngFor="let word of wordArr; let i = index"
+						[ngClass]="{'not-active': counter <= i, 'active': counter > i}" class="display-1">{{word}}
+					</span>
+				</blockquote>
+				<em [ngClass]="{'not-active': !isDone, 'active': isDone}" class="display-3">~ {{writer}}</em>
+			</div>
+		</div>
+	</div>
+</section>

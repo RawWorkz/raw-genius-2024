@@ -1,0 +1,164 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+// import
+
+// @import "../../../../node_modules/bootstrap/scss/functions";
+// @import "../../../../node_modules/bootstrap/scss/mixins";
+// @import "../../../styles/abstracts/functions";
+
+// TODO: move colors to abstract folder
+
+$white: #ffffff;
+$black: #151515;
+$blue: #00c8ff;
+$green-lite: #00fff5;
+$green: #00ff85;
+$orange: #ff8200;
+$purple: #8300ff;
+
+// scss map
+$colors: (
+	"white": $white,
+	"black": $black,
+	"blue": $blue,
+	"green-lite": $green-lite,
+	"green": $green,
+	"orange": $orange,
+	"purple": $purple,
+);
+
+/* backgrounds colors */
+@each $name, $color in $colors {
+	.bg-raw-#{$name} {
+		background-color: $color;
+	}
+	.text-raw-#{$name} {
+		color: $color;
+	}
+	.raw-#{$name} {
+		background-color: $color;
+		color: $color;
+	}
+}
+
+.raw-color {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border-top-left-radius: 1rem;
+	// border: 1px solid gray;
+	margin: 10px;
+	filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.3));
+}
+
+:root,
+.btn {
+	--raw-white: #{$white};
+	--raw-black: #{$black};
+	--raw-blue: #{$blue};
+	--raw-green-lite: #{$green-lite};
+	--raw-green: #{$green};
+	--raw-orange: #{$orange};
+	--raw-purple: #{$purple};
+}
+
+// .btn-rawgenius-primary,
+// .btn-rawgenius-secondary,
+// .btn-rawgenius-success,
+// .btn-rawgenius-danger,
+// .btn-rawgenius-warning,
+// .btn-rawgenius-info,
+// .btn-rawgenius-light,
+// .btn-rawgenius-dark,
+// .btn-rawgenius-link {
+// }
+
+$raw-theme-colors: (
+	"primary": (
+		"--raw-orange",
+		$orange,
+	),
+	"orange": (
+		"--raw-orange",
+		$orange,
+	),
+	"secondary": (
+		"--raw-blue",
+		$blue,
+	),
+	"blue": (
+		"--raw-blue",
+		$blue,
+	),
+	"success": (
+		"--raw-green",
+		$green,
+	),
+	"green": (
+		"--raw-green",
+		$green,
+	),
+	"danger": (
+		"--raw-purple",
+		$purple,
+	),
+	"purple": (
+		"--raw-purple",
+		$purple,
+	),
+	"warning": (
+		"--raw-green-lite",
+		$green-lite,
+	),
+	"info": (
+		"--raw-green",
+		$green,
+	),
+	"light": (
+		"--raw-white",
+		$white,
+	),
+	"dark": (
+		"--raw-black",
+		$black,
+	),
+);
+
+/* backgrounds colors */
+@each $name, $color in $raw-theme-colors {
+	.btn-rawgenius-#{$name} {
+		--bs-btn-color: #{choose-contrast-color(nth($color, 2))};
+		--bs-btn-bg: var(#{nth($color, 1)});
+		--bs-btn-border-color: var(#{nth($color, 1)});
+		// --bs-btn-border-radius: 0.2rem;
+		--bs-btn-hover-color: #{shade-color(nth($color, 2), 30%)};
+		--bs-btn-hover-bg: #{shade-color(nth($color, 2), 50%)};
+		--bs-btn-hover-border-color: #{shade-color(nth($color, 2), 50%)};
+		--bs-btn-focus-shadow-rgb: #{to-rgb(nth($color, 2))};
+		--bs-btn-active-color: var(--bs-btn-hover-color);
+		--bs-btn-active-bg: #{shade-color(nth($color, 2), 20%)};
+		--bs-btn-active-border-color: #{shade-color(nth($color, 2), 20%)};
+
+		// &::before {
+		// 	background: var(--bs-btn-color);
+		// 	border-radius: var(--bs-btn-border-radius);
+		// }
+		// &::after {
+		// }
+
+		// &:hover,
+		// &:focus,
+		// &:hover {
+		// 	color: var(--bs-btn-bg);
+		// 	&::before {
+		// 		transform: scaleX(1);
+		// 	}
+		// 	&::after {
+		// 		transform: translate(0, 0);
+		// 		// background-color: var(--bs-btn-bg);
+		// 		border-color: #{shade-color(nth($color, 2), 30%)};
+		// 	}
+		// }
+	}
+}

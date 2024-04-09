@@ -1,0 +1,15 @@
+<div class="container-address">
+	<h2>Address</h2>
+	<address>
+		<p class="caption">
+			{{data.firstname}} {{data.lastname}}<br />
+			{{data.street}}<br />
+			{{data.zipcode}} {{data.city}}<br />
+			<br />
+			<a href="{{'tel:' + data.mobile}}">{{data.mobile}}</a><br />
+			<a href="{{'mailto:' + data.email}}">{{data.email}}</a><br />
+			<br />
+			{{data.kvk}}
+		</p>
+	</address>
+</div>

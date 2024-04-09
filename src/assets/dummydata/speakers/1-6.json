@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-3066-445b-9590-af2eb8416d35",
+	"bio": {
+		"name": "Elina",
+		"surname": "De Boer",
+		"uuid": "6ef845d0-6c19-49a7-8d46-5f1232eeb4ac",
+		"bio": "Laboriosam impedit consequatur ut eligendi cupiditate occaecati hic enim voluptas et aut sit nemo sapiente dolores quia qui illum ut qui id iusto iure asperiores nam eius velit quam voluptatum voluptatem eos quos illum et nemo adipisci tenetur perspiciatis sed dolorem sed minima quaerat aut labore aspernatur doloremque molestiae repudiandae qui aut ex sed ab a at sit incidunt qui.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/elina_de_boer",
+			"github": "https://github.com/elina_de_boer",
+			"instagram": "https://www.instagram.com/elina_de_boer",
+			"twitter": "https://twitter.com/elina_de_boer"
+		},
+		"id": "1-6",
+		"image": {
+			"banner": "https://picsum.photos/seed/elina_de_boer/400/200",
+			"thumb": "https://picsum.photos/seed/elina_de_boer/200/200",
+			"large": "https://picsum.photos/seed/elina_de_boer/800/400"
+		}
+	},
+	"id": "1-6",
+	"created": "2023-02-20 14:16:50"
+}

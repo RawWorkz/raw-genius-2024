@@ -1,0 +1,5 @@
+<span class="socials socials-wrapper">
+	<a *ngFor="let item of data; let i = index" [href]="item.url" [title]="item.name" target="_blank" rel="noreferrer">
+		<app-icons class="link-secondary" [icon]="item.name"></app-icons>
+	</a>
+</span>

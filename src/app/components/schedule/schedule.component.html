@@ -1,0 +1,46 @@
+<section class="container-schedule">
+
+	<div class="container">
+
+		<div class="row justify-content-center">
+
+			<!-- <h2>{{title}}</h2> -->
+
+
+			<div class="col-12 col-xl-6">
+
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<!-- <th scope="col">#</th> -->
+							<th scope="col">Tijd</th>
+							<th scope="col">Omschrijving</th>
+							<th scope="col">Zaal</th>
+							<!-- <th scope="col"></th> -->
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let shed of data?.schedule; let i = index" [ngClass]="'table-tr-' + shed.type">
+							<!-- <th scope="row">{{i+1}}</th> -->
+							<td class="text-nowrap _text-wrap _text-nowrap-md">
+								{{shed.start_time}} - {{shed.end_time}}
+							</td>
+							<!-- <td><strong>{{shed.description}}</strong><br />{{shed.speakers}}</td> -->
+							<!-- <td>
+								<strong>{{getDescription(shed)}}</strong><br />{{getSpeaker(shed)}}
+							</td>
+						-->
+							<td>
+								<app-schedule-session-info2 [schedule]="shed"></app-schedule-session-info2>
+							</td>
+							<td class="text-nowrap _text-nowrap-md">{{shed.location}}</td>
+							<!-- <td class="text-nowrap text-nowrap-md">{{item.type}}</td> -->
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</section>

@@ -1,0 +1,17 @@
+// .schedule--color {
+// 	border: 1px solid black;
+// }
+
+$size: 32px;
+.swatch__drop {
+	width: $size;
+	height: $size;
+	// width: 100px;
+	// height: 100px;
+	// width: 6.25rem;
+	// height: 6.25rem;
+	border-radius: 100% 10% 100% 100%;
+	// margin: auto;
+	border: 1px rgba(0, 0, 0, 0.2) solid;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
+}

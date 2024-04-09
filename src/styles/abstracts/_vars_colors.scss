@@ -1,0 +1,91 @@
+$black: #000000;
+$white: #fff;
+
+// https://www.bootstrapdash.com/bootstrap-css-styles/
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#color
+/*-------------------------------------------------------------------*/
+/* Change theme-colors */
+$theme-colors: (
+	primary: #234d7b,
+	secondary: #3b3c3e,
+	success: #1e6111,
+	info: #64c3d2,
+	warning: #f5e74a,
+	danger: #820410,
+);
+
+// /*
+//    SKINS
+//    - Backgrounds
+//    - Colors
+//    - Border colors
+//    - SVG fills
+//    - SVG Strokes
+// */
+
+// Primary colors
+$purple: #c3c3f5;
+$blue: #c3d9f5;
+$red: #efbebb;
+$orange: #f5d6ab;
+$orangered: #fcc8b6;
+$yellow: #fff689;
+
+// shades (white -> black)
+$offwhite: #f7f7f7;
+$gray: #cfcfcf;
+$offblack: #444444;
+
+$black: #000000;
+$blue-dark: #002269;
+$green: #c5bf10;
+$green-light: #f3f2cf;
+$grey-dark: #a6a6a3;
+$grey-mid: #d9d9d6;
+$grey-light: #f5f5f1;
+$white: #ffffff;
+$red-error: #c51010;
+$red-light: #fcf3f3;
+
+// Shades (black -> white)
+$black-900: #333333;
+$black-800: #696969;
+$black-600: #a8a8a8;
+$black-500: #d9d9d9;
+$black-400: #f0f0f0;
+$black-200: #f8f8f8;
+
+// debug
+$pink: #ffb5f5;
+
+// scss map
+$colors: (
+	"purple": $purple,
+	"blue": $blue,
+	"red": $red,
+	"orange": $orange,
+	"orangered": $orangered,
+	"yellow": $yellow,
+	"offwhite": $offwhite,
+	"gray": $gray,
+	"offblack": $offblack,
+	"pink": $pink,
+	"black": $black,
+	"blue-dark": $blue-dark,
+	"green": $green,
+	"green-light": $green-light,
+	"grey-dark": $grey-dark,
+	"grey-mid": $grey-mid,
+	"grey-light": $grey-light,
+	"white": $white,
+	"red-error": $red-error,
+	"red-light": $red-light,
+);
+
+$raw-white: #ffffff;
+$raw-black: #151515;
+$raw-blue: #00c8ff;
+$raw-green-lite: #00fff5;
+$raw-green: #00ff85;
+$raw-orange: #ff8200;
+$raw-purple: #8300ff;

@@ -1,0 +1,56 @@
+<section class="container-schedule" *ngIf="data">
+
+
+
+
+
+	<div class="container">
+
+
+		<button class="btn btn-danger" (click)="onFullScreenClickHandler()">Toggle fullscreen</button>
+
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<!-- <th scope="col">#</th> -->
+					<th scope="col">Time</th>
+					<th scope="col" *ngFor="let room of data.rooms">{{room.name}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- <tr *ngFor="let session of tableData[0].schedule; let i = index">
+					<th scope="row">{{i+1}}</th>
+					<td>{{ session.time }}</td>
+					<td>{{ tableData[0].schedule[i].title }}</td>
+					<td>{{ tableData[1].schedule[i].title }}</td>
+					<td>{{ tableData[2].schedule[i].title }}</td>
+					<td>{{ tableData[3].schedule[i].title }}</td>
+				</tr> -->
+				<tr *ngFor="let schedule of tableData[0].schedule; let i = index">
+					<!-- <th scope="row">{{i+1}}</th> -->
+					<td class="text-nowrap">{{ schedule.time.total }}</td>
+					<td>
+						<app-schedule-session-info
+							[session]="tableData[0].schedule[i].session"></app-schedule-session-info>
+					</td>
+					<td>
+						<app-schedule-session-info
+							[session]="tableData[1].schedule[i].session"></app-schedule-session-info>
+					</td>
+					<td>
+						<app-schedule-session-info
+							[session]="tableData[2].schedule[i].session"></app-schedule-session-info>
+					</td>
+					<td>
+						<app-schedule-session-info
+							[session]="tableData[3].schedule[i].session"></app-schedule-session-info>
+					</td>
+
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+
+</section>

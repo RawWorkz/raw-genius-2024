@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-d281-4977-9b25-248c9d5862c6",
+	"bio": {
+		"name": "Sunshine",
+		"surname": "Smit",
+		"uuid": "6ef845d0-6a66-4e32-bd18-6671a829c02c",
+		"bio": "Animi molestias quasi iusto amet natus et inventore magnam necessitatibus mollitia aut neque quibusdam est officiis ea eum consequatur et ut veritatis id ipsa provident inventore culpa maiores non quibusdam nihil suscipit sint consectetur et aut tempore fugit nisi sapiente iste rerum facilis explicabo eum totam accusamus in quaerat sed placeat deleniti porro iusto ipsam accusamus assumenda nihil quo id.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/sunshine_smit",
+			"github": "https://github.com/sunshine_smit",
+			"instagram": "https://www.instagram.com/sunshine_smit",
+			"twitter": "https://twitter.com/sunshine_smit"
+		},
+		"id": "3-2",
+		"image": {
+			"banner": "https://picsum.photos/seed/sunshine_smit/400/200",
+			"thumb": "https://picsum.photos/seed/sunshine_smit/200/200",
+			"large": "https://picsum.photos/seed/sunshine_smit/800/400"
+		}
+	},
+	"id": "3-2",
+	"created": "2023-02-20 14:16:50"
+}

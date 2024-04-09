@@ -1,0 +1,10 @@
+<div *ngIf="session">
+	<!-- {{session|json}} -->
+	<h6>{{ session.title }}</h6>
+	<!-- <p>{{ session.description }}</p> -->
+	<p>{{ session.speaker.name }} {{ session.speaker.surname }}</p>
+
+	<!-- <p>{{ session.tags.join(', ') }}</p> -->
+
+	<span *ngFor="let tag of tags" class="badge me-1" ngClass="{{tag.color}}">{{tag.title}}</span>
+</div>

@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-dbea-46d0-9def-120e350507fb",
+	"bio": {
+		"name": "Lowell",
+		"surname": "De Wit",
+		"uuid": "6ef845d0-a78d-4468-9304-224a1a30846c",
+		"bio": "Est maxime voluptate molestias maiores voluptas eligendi corporis sed hic ipsum temporibus et fuga reiciendis aut dolores eaque voluptate qui iusto pariatur nostrum perferendis nesciunt consequatur ipsam soluta dolorem et quis deserunt sed similique id quod et vel et et vel omnis et veniam quasi corrupti velit nulla laborum ad amet delectus laboriosam quae quam ea molestiae modi doloremque odio.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/lowell_de_wit",
+			"github": "https://github.com/lowell_de_wit",
+			"instagram": "https://www.instagram.com/lowell_de_wit",
+			"twitter": "https://twitter.com/lowell_de_wit"
+		},
+		"id": "2-1",
+		"image": {
+			"banner": "https://picsum.photos/seed/lowell_de_wit/400/200",
+			"thumb": "https://picsum.photos/seed/lowell_de_wit/200/200",
+			"large": "https://picsum.photos/seed/lowell_de_wit/800/400"
+		}
+	},
+	"id": "2-1",
+	"created": "2023-02-20 14:16:50"
+}

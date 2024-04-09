@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-cbc4-444b-9263-7d04f8e262ae",
+	"bio": {
+		"name": "Zulma",
+		"surname": "Bakker",
+		"uuid": "6ef845d0-2140-4b42-8a2f-23faf2b38128",
+		"bio": "Sit eaque iure provident et quia ea et incidunt quod qui optio dolores voluptates non nisi quasi est ex earum adipisci qui sed tempore possimus officia veniam dolores aut explicabo modi excepturi qui dolor labore qui temporibus molestiae totam est placeat recusandae voluptatem aliquid vero voluptatibus eius non voluptates sunt fuga laboriosam blanditiis beatae nam et magni aut consectetur vel.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/zulma_bakker",
+			"github": "https://github.com/zulma_bakker",
+			"instagram": "https://www.instagram.com/zulma_bakker",
+			"twitter": "https://twitter.com/zulma_bakker"
+		},
+		"id": "0-4",
+		"image": {
+			"banner": "https://picsum.photos/seed/zulma_bakker/400/200",
+			"thumb": "https://picsum.photos/seed/zulma_bakker/200/200",
+			"large": "https://picsum.photos/seed/zulma_bakker/800/400"
+		}
+	},
+	"id": "0-4",
+	"created": "2023-02-20 14:16:50"
+}

@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-e59a-4df7-b40a-9c857dd77156",
+	"bio": {
+		"name": "Kortney",
+		"surname": "De Graaf",
+		"uuid": "6ef845d0-3aed-4656-bc4c-07ceb919e769",
+		"bio": "Rem nesciunt commodi ad dolor labore et harum architecto eligendi qui quidem velit enim ut sunt adipisci voluptatibus dolor ea et atque qui aut ut asperiores nulla et magnam ut in eos debitis iure aut esse facere sequi temporibus cumque soluta deserunt asperiores sint ut sapiente consequatur iusto maxime non doloribus laborum impedit cum ex deserunt quidem non et qui.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/kortney_de_graaf",
+			"github": "https://github.com/kortney_de_graaf",
+			"instagram": "https://www.instagram.com/kortney_de_graaf",
+			"twitter": "https://twitter.com/kortney_de_graaf"
+		},
+		"id": "1-1",
+		"image": {
+			"banner": "https://picsum.photos/seed/kortney_de_graaf/400/200",
+			"thumb": "https://picsum.photos/seed/kortney_de_graaf/200/200",
+			"large": "https://picsum.photos/seed/kortney_de_graaf/800/400"
+		}
+	},
+	"id": "1-1",
+	"created": "2023-02-20 14:16:50"
+}

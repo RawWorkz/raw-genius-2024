@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-7677-4164-8272-e7034744faab",
+	"bio": {
+		"name": "Zane",
+		"surname": "Smits",
+		"uuid": "6ef845d0-a519-4767-b41b-942c8136b9c3",
+		"bio": "Maxime eligendi enim aut veniam mollitia voluptatem quae itaque qui porro nulla amet corporis aspernatur ratione accusantium est in magni et voluptatem rerum delectus sequi sed rerum quidem culpa voluptatem voluptate sequi architecto corrupti nobis corrupti aliquam iste distinctio id aspernatur at pariatur culpa perspiciatis nisi facilis tenetur enim totam eum natus soluta deleniti quos ipsum consequatur saepe illum non.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/zane_smits",
+			"github": "https://github.com/zane_smits",
+			"instagram": "https://www.instagram.com/zane_smits",
+			"twitter": "https://twitter.com/zane_smits"
+		},
+		"id": "0-6",
+		"image": {
+			"banner": "https://picsum.photos/seed/zane_smits/400/200",
+			"thumb": "https://picsum.photos/seed/zane_smits/200/200",
+			"large": "https://picsum.photos/seed/zane_smits/800/400"
+		}
+	},
+	"id": "0-6",
+	"created": "2023-02-20 14:16:50"
+}

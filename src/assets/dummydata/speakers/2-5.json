@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-937f-40e8-9c3b-556a5067068d",
+	"bio": {
+		"name": "Angle",
+		"surname": "Jansen",
+		"uuid": "6ef845d0-a6fe-4a11-b6fe-5b4c32cbaee2",
+		"bio": "Vel deserunt nemo sint ex molestiae aut sapiente voluptate et nostrum tenetur nihil itaque aut harum accusantium dignissimos nesciunt pariatur nihil et provident iste omnis sed aut accusamus consequatur ut magnam ducimus cupiditate optio unde vero recusandae omnis sint molestiae sit totam ipsam autem rerum eaque tempora aspernatur libero voluptas laborum assumenda aliquam officia officiis ea aperiam nostrum non sed.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/angle_jansen",
+			"github": "https://github.com/angle_jansen",
+			"instagram": "https://www.instagram.com/angle_jansen",
+			"twitter": "https://twitter.com/angle_jansen"
+		},
+		"id": "2-5",
+		"image": {
+			"banner": "https://picsum.photos/seed/angle_jansen/400/200",
+			"thumb": "https://picsum.photos/seed/angle_jansen/200/200",
+			"large": "https://picsum.photos/seed/angle_jansen/800/400"
+		}
+	},
+	"id": "2-5",
+	"created": "2023-02-20 14:16:50"
+}

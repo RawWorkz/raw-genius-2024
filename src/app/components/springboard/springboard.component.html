@@ -1,0 +1,20 @@
+<section class="container _container-style">
+	<div [class]="rowClass">
+
+		<div [class]="springClass" *ngFor="let spr of springBoarArr; let i = index">
+			<div class="card" (click)="onClickHandler($event, spr.title)" [routerLink]="spr.path">
+				<div class="card-body">
+					<app-icons icon="{{spr.title}}"></app-icons>
+					<p class="card-text">{{spr.title}}</p>
+					<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+					<span class="d-flex justify-content-end">
+						<app-icons icon="arrow-right"></app-icons>
+					</span>
+				</div>
+				<!-- /.card-body -->
+			</div>
+			<!-- /.card -->
+		</div>
+	</div>
+
+</section>

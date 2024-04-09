@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230604T200108Z
+UID:1684527204111-43671@ical.marudot.com
+DTSTART;TZID=Europe/Amsterdam:20230623T123000
+DTEND;TZID=Europe/Amsterdam:20230624T133000
+SUMMARY:RawGenius 2023
+URL:https://www.rawgenius.nl
+DESCRIPTION:RawGenius is niet zomaar een evenement. Het is een unieke ervaring waar je niet alleen de kans krijgt om jezelf te laten horen en anderen te inspireren\, maar ook om te genieten van een fantastische sfeer vol plezier\, hapjes en drankjes. Verwacht boeiende teambuildingactiviteiten en een overvloed aan mogelijkheden om met gelijkgestemde professionals te socializen. 
+LOCATION:Claus\, Bosweg 15\, 2131 LX Hoofddorp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RawGenius 2023
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

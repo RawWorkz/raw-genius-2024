@@ -1,0 +1,12 @@
+@import "src/styles/_default_import.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+.container-title {
+	border: 0px solid $black-400;
+	padding: 5rem 0;
+	font-family: "Roboto Condensed", sans-serif;
+	h2 {
+		columns: red;
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-c5c4-48ea-b464-7ad5628b1055",
+	"bio": {
+		"name": "Kortney",
+		"surname": "Dijkstra",
+		"uuid": "6ef845d0-20b0-4390-9c2b-7e316f469187",
+		"bio": "Nam voluptates tenetur qui modi magnam quia doloribus mollitia numquam rerum sunt vel temporibus asperiores quia laudantium maxime velit nostrum quam laborum qui consectetur aliquam libero eaque aliquid explicabo ad quis ut non laudantium numquam deleniti velit ut voluptas odio repudiandae omnis ducimus architecto accusamus repellendus numquam nesciunt quo odit commodi natus veniam rerum alias atque voluptatum vero voluptatibus alias.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/kortney_dijkstra",
+			"github": "https://github.com/kortney_dijkstra",
+			"instagram": "https://www.instagram.com/kortney_dijkstra",
+			"twitter": "https://twitter.com/kortney_dijkstra"
+		},
+		"id": "0-0",
+		"image": {
+			"banner": "https://picsum.photos/seed/kortney_dijkstra/400/200",
+			"thumb": "https://picsum.photos/seed/kortney_dijkstra/200/200",
+			"large": "https://picsum.photos/seed/kortney_dijkstra/800/400"
+		}
+	},
+	"id": "0-0",
+	"created": "2023-02-20 14:16:50"
+}

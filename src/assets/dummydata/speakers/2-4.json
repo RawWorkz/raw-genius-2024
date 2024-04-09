@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-516a-4fd1-8dde-d2579190b64e",
+	"bio": {
+		"name": "Jarrod",
+		"surname": "Brouwer",
+		"uuid": "6ef845d0-17d5-4282-8b4d-47e6f72fddca",
+		"bio": "Ipsum sequi libero sed id rerum et sunt magnam inventore ut et accusantium consequuntur nihil soluta perspiciatis vel aut eius maiores ut dolores ut id quisquam quae occaecati similique maxime animi eum maxime voluptas illo non voluptatum doloribus rem natus aut error excepturi ea velit accusantium quisquam vel saepe repudiandae quia mollitia omnis tenetur qui quae corrupti et recusandae consectetur.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/jarrod_brouwer",
+			"github": "https://github.com/jarrod_brouwer",
+			"instagram": "https://www.instagram.com/jarrod_brouwer",
+			"twitter": "https://twitter.com/jarrod_brouwer"
+		},
+		"id": "2-4",
+		"image": {
+			"banner": "https://picsum.photos/seed/jarrod_brouwer/400/200",
+			"thumb": "https://picsum.photos/seed/jarrod_brouwer/200/200",
+			"large": "https://picsum.photos/seed/jarrod_brouwer/800/400"
+		}
+	},
+	"id": "2-4",
+	"created": "2023-02-20 14:16:50"
+}

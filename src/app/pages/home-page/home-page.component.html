@@ -1,0 +1,258 @@
+<app-btn2top></app-btn2top>
+
+<app-hero-video-rawgenius *featureFlag="'rawgenius_2023'"></app-hero-video-rawgenius>
+
+<!--
+
+	<section class="container pt-5">
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="alert alert-danger text-center" role="alert">
+				<h5>Deadline registratie {{convertDate(registerDate)}}</h5>
+				Let op je hebt nog <strong><app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count>
+					dagen</strong> om je te registreren:
+					<div class="d-flex justify-content-center mt-2">
+						<a href="#register" class="btn btn-outline-danger "><app-icons icon="arrow-down"></app-icons>
+							Registreer</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="alert alert-danger text-center" role="alert">
+						<h5>Deadline speakers {{convertDate(speakerDate)}}</h5>
+						Let op je hebt nog <strong><app-count [ms]="500" [from]="fromSpeaker" [to]="toSpeaker"></app-count>
+							dagen</strong> om lezing in te geven:
+							<div class="d-flex justify-content-center mt-2">
+								<a href="#speakers" class="btn btn-outline-danger"><app-icons icon="arrow-down"></app-icons>
+									Speakers</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+-->
+
+
+
+<section debug>
+	<ul class="mb-0">
+		<li>
+			<code>environment.production: {{this.isProduction}}</code>
+		</li>
+		<li>
+			<code>environment.text: {{this.isProductionText}}</code>
+		</li>
+		<li>
+			<code>countdown register {{convertDate(registerDate)}}: {{toRegister}} <app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count></code>
+		</li>
+		<li>
+			<code>countdown speaker {{convertDate(speakerDate)}}: {{toSpeaker}} <app-count [ms]="500" [from]="fromSpeaker" [to]="toSpeaker"></app-count></code>
+		</li>
+		<li>
+			<code>countdown event {{convertDate(eventDate)}}: {{toEvent}} <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count></code>
+		</li>
+	</ul>
+</section>
+
+
+
+<app-anchor id="about"></app-anchor>
+<section class="container container-style">
+	<app-title title="😎 RawGenius" subtitle="where the best, become genius"></app-title>
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-8">
+			<p>
+				RawGenius is niet zomaar een evenement. Het is een unieke ervaring waar je niet alleen de kans krijgt
+				om jezelf te laten horen en anderen te inspireren, maar ook om te genieten van een fantastische sfeer
+				vol plezier, hapjes en drankjes. Verwacht boeiende teambuildingactiviteiten en een overvloed aan
+				mogelijkheden om met gelijkgestemde professionals te socializen.
+			</p>
+
+			<!--
+			<p>
+				Bij RawGenius staat het delen van kennis en vaardigheden centraal. Wij nodigen je van harte uit om een
+				spreker te worden
+				en jouw passie en tips te delen met collega's. Onze sessies bieden de perfecte gelegenheid om jezelf te
+				presenteren en
+				je te profileren als expert in jouw vakgebied. In slechts 30 minuten kun je een blijvende impact maken
+				en waardevolle inzichten delen.
+			</p>
+ 			-->
+
+			<!--
+			<p>
+				Mis deze unieke kans niet om jouw expertise te delen, nieuwe inzichten op te doen en te netwerken met
+				gelijkgestemde
+				professionals. Doe mee aan RawGenius en maak van dit evenement een onvergetelijke ervaring waarin je
+				groeit en anderen
+				inspireert!
+			</p>
+			-->
+		</div>
+	</div>
+</section>
+
+
+
+<app-anchor id="springboard"></app-anchor>
+<div class="pt-5">
+	<app-springboard display="homepage"></app-springboard>
+</div>
+
+
+
+<!--
+<app-anchor id="register"></app-anchor>
+<section class="container container-style">
+	<app-title title="🚨 Claim your spot!" subtitle="deadline 28 mei 2023"></app-title>
+	<app-cta-alert></app-cta-alert>
+</section>
+-->
+
+<app-quote quote="Code is like humor. When you have to explain it, it’s bad." writer="Cory House"></app-quote>
+
+<!--
+<app-anchor id="speakers"></app-anchor>
+<section class="container container-style">
+	<app-title title="🔈 Calling all speakers!" subtitle="deadline 26 mei 2023"></app-title>
+	<app-cta-speakers></app-cta-speakers>
+</section>
+ -->
+
+<!--
+<app-anchor id="schedule"></app-anchor>
+<section class="container container-style">
+	<app-title title="🚃 Schedule" subtitle="be there or be square"></app-title>
+	<app-schedule></app-schedule>
+</section>
+ -->
+
+<app-anchor id="programma"></app-anchor>
+<section class="container container-style">
+	<app-title title="🚃 Programma" subtitle="be there or be square"></app-title>
+	<app-schedule-two title="Vrijdag 23 juni 2023" url="/assets/rawworks_genius_2023_timetable.json"></app-schedule-two>
+	<br class="mt-3" />
+	<app-schedule-two title="Zaterdag 24 juni 2023"
+		url="/assets/rawworks_genius_2023_timetable_saterday.json"></app-schedule-two>
+</section>
+
+<!--
+<app-anchor id="schedule"></app-anchor>
+<section class="container container-style">
+	<app-title title="🚃 Schedule" subtitle="be there or be square"></app-title>
+	<app-schedule></app-schedule>
+</section>
+ -->
+
+
+<app-anchor id="zet-um-in-je-agenda"></app-anchor>
+<section class="container container-style">
+	<app-title title="📅 Agenda" subtitle="Wees erbij, claim je agenda plek!"></app-title>
+	<app-calendar-ics file="/assets/ics/myevents.ics"></app-calendar-ics>
+</section>
+
+
+<!--
+<section class="container container-style" *featureFlag="'rawgenius_2024'">
+	<app-anchor id="cta"></app-anchor>
+	<app-cta></app-cta>
+</section>
+-->
+
+
+<!--
+app-anchor id="people"></app-anchor>
+<section class="container container-style">
+	<app-title title="👽 The people"
+		subtitle="It’s their abilities, knowledge, and experience that can’t be replaced."></app-title>
+	<app-people></app-people>
+</section>
+-->
+
+<!-- <app-gallery></app-gallery> -->
+
+
+
+<!--
+<app-anchor id="sponsors"></app-anchor>
+<app-title title="🧽 Onze Sponsoren" subtitle="van wie we ❤️"></app-title>
+<app-sponsors></app-sponsors>
+-->
+
+<!--
+<section class="container">
+	<h2 class="display-2">Display <app-count [total]="100" dir="up" [ms]="50"></app-count> 🦊</h2>
+	<h2 class="display-3">Display <app-count [total]="100" dir="down" [ms]="50"></app-count> xxx</h2>
+	<h2>H2 - Counter test <app-count [total]="100" dir="up" [ms]="500"></app-count> hier tussen</h2>
+	<h3>H3 - Counter test <app-count [total]="1000"></app-count> hier tussen</h3>
+	<h4>H4 - Counter test <app-count [total]="10000" dir="up" [ms]="1"></app-count> hier tussen</h4>
+
+	<h2 class="display-2">Members: <app-count-trigger [total]="100" dir="up" [ms]="50"></app-count-trigger> 🥩 </h2>
+	<h2 class="display-3">Sandwiches: <app-count-trigger [total]="125" dir="up" [ms]="500"></app-count-trigger> 🥪 </h2>
+</section>
+-->
+
+<app-quote quote="Talk is cheap. Show me the code" writer="Linus Torvalds"></app-quote>
+
+
+<!-- <app-testimonials></app-testimonials> -->
+
+<!-- <app-anchor id="youtube"></app-anchor> -->
+<!-- <app-anchor id="lastyear"></app-anchor> -->
+<!-- <app-video-youtube></app-video-youtube> -->
+<!-- <app-video-vimeo [src]="'https://player.vimeo.com/video/803379240'"></app-video-vimeo> -->
+
+<app-anchor id="eventvideo"></app-anchor>
+<section class="container container-style">
+	<app-title title="🍿 Impressie RawGenius 2022" subtitle="Als je er niet was, JAMMER joh!"></app-title>
+	<app-video-youtube [src]="'https://www.youtube-nocookie.com/embed//mfgetOcxutA'"></app-video-youtube>
+</section>
+
+
+
+
+
+<app-anchor id="contact"></app-anchor>
+
+<app-anchor id="location"></app-anchor>
+<app-anchor id="location-event"></app-anchor>
+
+
+<section class="container container-style mb-5">
+	<app-title title="📍 Locatie / Event" subtitle="play hard"></app-title>
+	<section class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-6 alert alert-danger" role="alert">
+				Belangrijk! Let op dat je je auto parkeert bij Claus, want hier is parkeren <strong>gratis</strong>.
+			</div>
+		</div>
+	</section>
+	<app-location-event></app-location-event>
+</section>
+
+<app-anchor id="location-sleep"></app-anchor>
+<section class="container container-style mb-5">
+	<app-title title="📍 Locatie / Slaap" subtitle="sleep hard"></app-title>
+	<section class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-6 alert alert-danger" role="alert">
+				Belangrijk! Let op dat je je auto parkeert bij Claus, want hier is parkeren <strong>gratis</strong>.
+			</div>
+		</div>
+	</section>
+	<app-location-sleep></app-location-sleep>
+</section>
+
+
+
+
+
+
+<!--
+<section debug>
+	<section class="container container-style mb-5" *ngIf="data && data.eventInfo">
+		<app-title title="📍 Contact/map/the place/the how" subtitle="You need to be there"></app-title>
+		<app-contact3 [data]="data.eventInfo"></app-contact3>
+	</section>
+</section>
+-->

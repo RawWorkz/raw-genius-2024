@@ -1,0 +1,377 @@
+// The utils-classes are for different hoover effects on buttons,
+// based upon Bootstrap
+// @see Hoover.css (https://ianlunn.github.io/Hover/#)
+// @see Bootstrap (https://getbootstrap.com/docs/5.3)
+
+// ---------------------------------------------------
+// vars
+// ---------------------------------------------------
+$border-width: 4px;
+$transition-duration: 0.3s;
+
+// ---------------------------------------------------
+// Background Transitions
+// ---------------------------------------------------
+.raw-sweep-to-right,
+.raw-sweep-to-left,
+.raw-sweep-to-bottom,
+.raw-sweep-to-top,
+.raw-shutter-out-horizontal,
+.raw-shutter-out-vertical {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+
+	transition-property: color;
+	transition-duration: 0.3s;
+
+	&::before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+
+		background: var(--bs-btn-color);
+		border-radius: var(--bs-btn-border-radius);
+
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+
+		transition-property: transform;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+	}
+
+	&:hover,
+	&:focus,
+	&:hover {
+		color: var(--bs-btn-bg);
+		&::before {
+			transform: scaleX(1);
+		}
+	}
+}
+
+.raw-sweep-to-left {
+	&::before {
+		transform-origin: 100% 50%;
+	}
+}
+.raw-sweep-to-bottom {
+	&::before {
+		transform-origin: 50% 0;
+		transform: scaleY(0);
+	}
+}
+.raw-sweep-to-top {
+	&::before {
+		transform-origin: 50% 100%;
+		transform: scaleY(0);
+	}
+}
+.raw-shutter-out-horizontal {
+	&::before {
+		transform-origin: 50%;
+	}
+}
+.raw-shutter-out-vertical {
+	&::before {
+		transform-origin: 50%;
+		transform: scaleY(0);
+	}
+}
+
+// ---------------------------------------------------
+// Border Transitions
+// ---------------------------------------------------
+
+.raw-underline-from-left,
+.raw-underline-from-right,
+.raw-underline-from-center {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	&::before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+
+		left: 0;
+		right: 100%;
+		bottom: 0;
+
+		background: var(--bs-btn-color);
+		height: $border-width;
+
+		transition-property: right;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+	}
+
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			right: 0;
+		}
+	}
+}
+.raw-underline-from-left {
+	&::before {
+		left: 0;
+		right: 100%;
+		bottom: 0;
+		transition-property: right;
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			left: 0;
+		}
+	}
+}
+.raw-underline-from-right {
+	&::before {
+		left: 100%;
+		right: 0;
+		transition-property: left;
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			left: 0;
+		}
+	}
+}
+.raw-underline-from-center {
+	&::before {
+		left: 51%;
+		right: 51%;
+		transition-property: left, right;
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			left: 0;
+			right: 0;
+		}
+	}
+}
+// .raw-reveal,
+.raw-underline-reveal,
+.raw-overline-reveal {
+	z-index: 0;
+	position: relative;
+	overflow: hidden;
+	&::before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		background: var(--bs-btn-color);
+		height: $border-width;
+
+		transform: translateY($border-width);
+		transition-property: transform;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			left: 0;
+			right: 0;
+		}
+	}
+}
+.raw-underline-reveal {
+	&::before {
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			transform: translateY(0);
+		}
+	}
+}
+.raw-overline-reveal {
+	&::before {
+		left: 0;
+		right: 0;
+		top: 0;
+
+		transform: translateY(-$border-width);
+	}
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			transform: translateY(0);
+		}
+	}
+}
+
+.raw-reveal {
+	z-index: 0;
+	position: relative;
+	overflow: hidden;
+	&::before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+
+		border-color: var(--bs-btn-color);
+		border-style: solid;
+		border-width: 0;
+
+		transition-property: border-width;
+		transition-duration: 0.1s;
+		transition-timing-function: ease-out;
+	}
+
+	&:hover,
+	&:focus,
+	&:hover {
+		&::before {
+			transform: translateY(0);
+			border-width: $border-width;
+		}
+	}
+}
+
+.btn-xl {
+	--bs-btn-padding-y: 1rem;
+	--bs-btn-padding-x: 2rem;
+}
+.btn-2xl {
+	--bs-btn-padding-y: 1.5rem;
+	--bs-btn-padding-x: 3rem;
+}
+.btn-2sm {
+	--bs-btn-padding-y: 0.1rem;
+	--bs-btn-padding-x: 0.2rem;
+}
+
+// https://tailwindcss.com/docs/border-radius
+.rounded-none {
+	--bs-btn-border-radius: 0px;
+}
+.rounded-sm {
+	--bs-btn-border-radius: 0.125rem; /* 2px */
+}
+.rounded {
+	--bs-btn-border-radius: 0.25rem; /* $border-width */
+}
+.rounded-md {
+	--bs-btn-border-radius: 0.375rem; /* 6px */
+}
+.rounded-lg {
+	--bs-btn-border-radius: 0.5rem; /* 8px */
+}
+.rounded-xl {
+	--bs-btn-border-radius: 0.75rem; /* 12px */
+}
+.rounded-2xl {
+	--bs-btn-border-radius: 1rem; /* 16px */
+}
+.rounded-3xl {
+	--bs-btn-border-radius: 1.5rem; /* 2$border-width */
+}
+.pill,
+.rounded-full {
+	--bs-btn-border-radius: 9999px;
+}
+
+// https://getbootstrap.com/docs/5.3/components/buttons/#variables
+// .btn-bd-primary {
+// 	--bs-btn-font-weight: 600;
+// 	--bs-btn-color: var(--bs-white);
+// 	--bs-btn-bg: var(--bd-violet);
+// 	--bs-btn-border-color: var(--bd-violet);
+// 	--bs-btn-border-radius: 0.5rem;
+// 	--bs-btn-hover-color: var(--bs-white);
+// 	--bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+// 	--bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+// 	--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+// 	--bs-btn-active-color: var(--bs-btn-hover-color);
+// 	--bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+// 	--bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+// }
+
+// ---------------------------------------------------
+// Icons
+// ---------------------------------------------------
+.raw-icon-right,
+.raw-icon-forward {
+	i {
+		transition-duration: 0.1s;
+		transition-property: transform;
+		transition-timing-function: ease-out;
+	}
+	&:hover {
+		i {
+			transform: translateX(4px);
+		}
+	}
+}
+.raw-icon-left,
+.raw-icon-back {
+	i {
+		transition-duration: 0.1s;
+		transition-property: transform;
+		transition-timing-function: ease-out;
+	}
+	&:hover {
+		i {
+			transform: translateX(-4px);
+		}
+	}
+}
+.raw-icon-up {
+	i {
+		transition-duration: 0.1s;
+		transition-property: transform;
+		transition-timing-function: ease-out;
+	}
+	&:hover {
+		i {
+			transform: translateY(-4px);
+		}
+	}
+}
+.raw-icon-down {
+	.icon,
+	i {
+		transition-duration: 0.1s;
+		transition-property: transform;
+		transition-timing-function: ease-out;
+	}
+	&:hover {
+		.icon,
+		i {
+			transform: translateY($border-width);
+		}
+	}
+}
+// .raw-icon-wobble-horizontal {
+// }
+// .raw-icon-wobble-vertical {
+// }

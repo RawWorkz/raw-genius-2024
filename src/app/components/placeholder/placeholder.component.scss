@@ -1,0 +1,36 @@
+@import "src/styles/_default_import.scss";
+
+// container only used for debugging
+.container-placeholder {
+	background-image: unset; // will be set if needed by ts
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	//
+	border: 1px solid $gray;
+	background-color: $grey-light;
+	transition: all $duration-500;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 4px;
+	&:hover {
+		opacity: 0.5;
+	}
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "placeholder";
+		background-color: $yellow;
+		font-size: 10px;
+		padding: 0;
+		margin: 2px;
+		padding-left: 0.3125rem;
+		padding-right: 0.3125rem;
+		text-transform: uppercase;
+		border-radius: 2px;
+	}
+}

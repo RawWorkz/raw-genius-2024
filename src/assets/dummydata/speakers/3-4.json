@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-36e9-4f46-986a-2d1c2867a87f",
+	"bio": {
+		"name": "Queenie",
+		"surname": "De Jong",
+		"uuid": "6ef845d0-ef7d-4355-982d-280a486435a1",
+		"bio": "Dolor ea repellendus alias ex officia quia aliquam aut magnam saepe nihil voluptatem consectetur quae autem atque molestiae quo dolores ut id sed et sit ut maxime voluptatem quo non qui cumque assumenda et aperiam est officiis aliquam perferendis voluptatem qui iure rem eligendi qui rerum non quae et reprehenderit ducimus eveniet dolorem debitis nulla quo qui repellat ut autem.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/queenie_de_jong",
+			"github": "https://github.com/queenie_de_jong",
+			"instagram": "https://www.instagram.com/queenie_de_jong",
+			"twitter": "https://twitter.com/queenie_de_jong"
+		},
+		"id": "3-4",
+		"image": {
+			"banner": "https://picsum.photos/seed/queenie_de_jong/400/200",
+			"thumb": "https://picsum.photos/seed/queenie_de_jong/200/200",
+			"large": "https://picsum.photos/seed/queenie_de_jong/800/400"
+		}
+	},
+	"id": "3-4",
+	"created": "2023-02-20 14:16:50"
+}

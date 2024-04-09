@@ -1,0 +1,33 @@
+$width: 150px;
+
+.container-debug-id {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: $width;
+	left: calc(($width * 1) * -1);
+	// left: calc(($width * 0.85) * -1);
+	transition: left 0.5s;
+	z-index: 1000;
+
+	overflow: hidden;
+
+	&::before {
+		content: "👽";
+		// width: 16px;
+		// height: 16px;
+		position: fixed;
+		// background-color: gray;
+		left: 0;
+		bottom: 0;
+		padding: 10px;
+		border-top-right-radius: 10px;
+		transition: left 0.5s;
+	}
+	&:hover {
+		left: 0px;
+		&::before {
+			left: -50px;
+		}
+	}
+}

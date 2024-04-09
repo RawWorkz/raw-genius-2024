@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-5f61-4023-8085-b97e22acf87e",
+	"bio": {
+		"name": "Alysa",
+		"surname": "Van Leeuwen",
+		"uuid": "6ef845d0-7065-4884-8d7c-a59fe9bdf720",
+		"bio": "Enim repudiandae in aut beatae exercitationem et praesentium et et ut suscipit quae laborum nihil consequatur voluptatibus quas sapiente qui commodi tempore rerum repellendus modi eveniet modi ut sequi facilis sit fuga voluptas et incidunt illo fuga distinctio est corrupti est corrupti numquam ratione non sit voluptates ipsa modi magni cupiditate tempore non eveniet voluptatem quia reiciendis perspiciatis maxime sit.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/alysa_van_leeuwen",
+			"github": "https://github.com/alysa_van_leeuwen",
+			"instagram": "https://www.instagram.com/alysa_van_leeuwen",
+			"twitter": "https://twitter.com/alysa_van_leeuwen"
+		},
+		"id": "1-0",
+		"image": {
+			"banner": "https://picsum.photos/seed/alysa_van_leeuwen/400/200",
+			"thumb": "https://picsum.photos/seed/alysa_van_leeuwen/200/200",
+			"large": "https://picsum.photos/seed/alysa_van_leeuwen/800/400"
+		}
+	},
+	"id": "1-0",
+	"created": "2023-02-20 14:16:50"
+}

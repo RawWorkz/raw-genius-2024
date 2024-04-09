@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-82ad-4886-8888-db0325a86d48",
+	"bio": {
+		"name": "Zulma",
+		"surname": "Mulder",
+		"uuid": "6ef845d0-e58d-4257-b4f4-12a58222cfd3",
+		"bio": "Debitis doloremque necessitatibus aut consectetur vero architecto hic numquam voluptatem quod quis beatae aut quod voluptatibus magnam est aut odio debitis quia voluptatem in ex amet molestiae at qui aliquid nostrum facilis atque sed rerum earum mollitia sunt repudiandae ea ut quia ratione facere qui qui similique et voluptas veniam expedita voluptates necessitatibus ut aut harum dignissimos excepturi rerum tenetur.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/zulma_mulder",
+			"github": "https://github.com/zulma_mulder",
+			"instagram": "https://www.instagram.com/zulma_mulder",
+			"twitter": "https://twitter.com/zulma_mulder"
+		},
+		"id": "3-6",
+		"image": {
+			"banner": "https://picsum.photos/seed/zulma_mulder/400/200",
+			"thumb": "https://picsum.photos/seed/zulma_mulder/200/200",
+			"large": "https://picsum.photos/seed/zulma_mulder/800/400"
+		}
+	},
+	"id": "3-6",
+	"created": "2023-02-20 14:16:50"
+}

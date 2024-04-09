@@ -1,0 +1,28 @@
+<article class="my-3" id="colors">
+	<div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+		<h3>Colors</h3>
+	</div>
+
+	<div>
+		<div class="bd-example">
+
+			<div *ngFor="let colorTheme of colorThemes; let i=index;">
+				<div class="_container pt-5">
+					<h3>{{colorTheme.colorThemeTitle}}</h3>
+					<hr class="my-10" />
+					<div class="row">
+						<div *ngFor="let color of colorTheme.colors; let j=index;" class="col-4 col-md-3 col-lg-2">
+
+							<div class="rounded-color bg-{{color.name}}"></div>
+							<div class="py-5 text-center">
+								<h6>{{color.name}}</h6>
+								<p>{{color.color | uppercase}}</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>

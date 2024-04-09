@@ -1,0 +1,16 @@
+.container-code {
+	margin-bottom: 20px;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	padding: 10px;
+	.container-code-wrapper {
+		max-height: 200px;
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: auto;
+		margin-bottom: 10px;
+		pre {
+			margin-bottom: 0;
+		}
+	}
+}

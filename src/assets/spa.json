@@ -1,0 +1,112 @@
+{
+  "eventInfo": {
+    "title": "RawGenius",
+    "subtitle": "where the best, become genius",
+    "startDate": "23-06-2023",
+    "endDate": "24-06-2023",
+    "location": {
+      "name": "Postillion Hotel Amersfoort Veluwemeer",
+      "url": "https://www.postillionhotels.com/nl-nl/postillion-hotel-amersfoort-veluwemeer-nl",
+      "address": {
+        "street": "Strandboulevard 3",
+        "zipcode": "3882 RN",
+        "city": "Putten",
+        "countryCode": "NL",
+        "country": "Netherlands"
+      }
+    }
+  },
+  "contactCompany": {
+    "name": "RawWorks",
+    "phone": "+31 (0) 850185167",
+    "url": "https://www.rawworks.nl/",
+    "email": "info@rawworks.nl",
+    "address": {
+      "street": "De Vork 2",
+      "zipcode": "3984 PA",
+      "city": "Odijk",
+      "countryCode": "NL",
+      "country": "Netherlands"
+    }
+  },
+  "contact": {
+    "firstname": "Matthijs",
+    "lastname": "Kamstra",
+    "kvk": "KvK. 121212121",
+    "email": "foo@bar.com",
+    "mobile": "06 12345678",
+    "phone": "020 2345678",
+    "address": {
+      "street": "DOldehoofsterkerkhof 4",
+      "zipcode": "8911 DE",
+      "city": "Leeuwarden",
+      "countryCode": "NL",
+      "country": "Netherlands"
+    }
+  },
+  "hero": {
+    "cta": {
+      "title": "Punny headline 2",
+      "subtitle": "Punny headline 2",
+      "body": "!! And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple' s marketing pages.",
+      "image": "https://picsum.photos/id/103/1024/900",
+      "btn": {
+        "title": "Superman pose",
+        "url": "#footer",
+        "target": ""
+      }
+    }
+  },
+  "cta": {
+    "title": "Are you ready to be RE:BORN?",
+    "subtitle": "Are you ready to be RE:BORN?",
+    "body": "Meld je aan voor de newsletter en blijf op de hoogte van de laatste projectontwikkelingen en investeringsmogelijkheden.",
+    "image": "https://picsum.photos/seed/cta0/200/300",
+    "btn": {
+      "title": "Call to action",
+      "url": "#cta",
+      "target": "_blank"
+    }
+  },
+  "features": [
+    {
+      "cta": {
+        "title": "Featured title 1",
+        "body": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+        "image": "https://picsum.photos/seed/cta1/200/300",
+        "btn": {
+          "title": "Call to action 1",
+          "url": "#cta1"
+        }
+      }
+    },
+    {
+      "cta": {
+        "title": "Featured title 2",
+        "body": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+        "image": "https://picsum.photos/seed/cta2/200/300",
+        "btn": {
+          "title": "Call to action 2",
+          "url": "#cta2"
+        }
+      }
+    },
+    {
+      "cta": {
+        "title": "Featured title 3",
+        "body": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+        "image": "https://picsum.photos/seed/cta3/200/300",
+        "btn": {
+          "title": "Call to action 3",
+          "url": "#cta3"
+        }
+      }
+    }
+  ],
+  "socials": {
+    "facebook": "https://www.facebook.com/rawworksnlr",
+    "linkedin": "https://www.linkedin.com/company/rawworks/",
+    "twitter": "https://twitter.com/RawWorksNL",
+    "youtube": "https://www.youtube.com/channel/UCVino-GQxOPNNtnnk2PDBOg"
+  }
+}

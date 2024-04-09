@@ -1,0 +1,14 @@
+@import "src/styles/_default_import.scss";
+
+.socials-wrapper {
+	// border: 1px solid pink;
+	a {
+		color: $black;
+		// font-size: 1.5em;
+		transition: color $slowDuration;
+		padding-right: 5px;
+		&:hover {
+			color: $blue;
+		}
+	}
+}

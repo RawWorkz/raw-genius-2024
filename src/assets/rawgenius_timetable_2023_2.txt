@@ -1,0 +1,184 @@
+
+    {
+      "start_time": "12:30",
+      "end_time": "13:00",
+      "description": "Inloop",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "13:15",
+      "description": "Kick Off",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "13:15",
+      "end_time": "14:00",
+      "description": "Keynote",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "14:30",
+      "description": "Sessie Microsoft",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "14:30",
+      "end_time": "15:00",
+      "description": "Sessie GVB",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "15:30",
+      "description": "Pauze",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "15:30",
+      "end_time": "15:50",
+      "description": "sessie 1",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "15:30",
+      "end_time": "15:50",
+      "description": "sessie 2",
+      "speakers": "",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "15:50",
+      "end_time": "16:00",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "16:00",
+      "end_time": "16:20",
+      "description": "Sessie 3",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "16:00",
+      "end_time": "16:20",
+      "description": "Sessie 4",
+      "speakers": "",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "16:20",
+      "end_time": "16:30",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "16:30",
+      "end_time": "16:50",
+      "description": "sessie 5",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "16:30",
+      "end_time": "16:50",
+      "description": "Sessie 6",
+      "speakers": "",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "16:50",
+      "end_time": "17:00",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "17:00",
+      "end_time": "17:20",
+      "description": "sessie 7",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "17:00",
+      "end_time": "17:20",
+      "description": "sessie 8",
+      "speakers": "",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "17:20",
+      "end_time": "17:30",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "17:30",
+      "end_time": "17:50",
+      "description": "sessie 9",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "17:30",
+      "end_time": "17:50",
+      "description": "Sessie 10",
+      "speakers": "",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "17:50",
+      "end_time": "17:55",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "17:55",
+      "end_time": "18:00",
+      "description": "afsluiten",
+      "speakers": "",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "18:00",
+      "end_time": "18:15",
+      "description": "wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "18:15",
+      "end_time": "19:15",
+      "description": "Bowlen",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "19:15",
+      "end_time": "21:15",
+      "description": "Diner",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "start_time": "21:15",
+      "end_time": "01:00",
+      "description": "Feestavond",
+      "speakers": "",
+      "location": ""
+    }
+

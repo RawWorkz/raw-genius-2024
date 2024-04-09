@@ -1,0 +1,20 @@
+<div class="container-code">
+	<div class="container-code-wrapper card p-1">
+		<code><pre>{{data}}</pre></code>
+	</div>
+
+	<ng-template [ngIf]="menu">
+
+		<div class="d-flex justify-content-end">
+			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+				<button type=" button" class="btn btn btn-outline-dark" (click)="onJsonConvertHandler()">🐞 ts</button>
+				<button type=" button" class="btn btn btn-outline-dark" (click)="onJson2TsHandler()">Json2ts</button>
+
+				<button type=" button" class="btn btn btn-outline-dark" (click)="onDownloadHandler()">Download
+					JSON</button>
+				<button type=" button" class="btn btn btn-outline-dark" (click)="onCopyHandler()">Copy JSON</button>
+			</div>
+		</div>
+
+	</ng-template>
+</div>

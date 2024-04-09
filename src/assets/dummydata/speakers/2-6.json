@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-3e93-4eea-95ef-28b7b56b5b10",
+	"bio": {
+		"name": "Elina",
+		"surname": "Jansen",
+		"uuid": "6ef845d0-da81-4543-adee-3574cc06cae0",
+		"bio": "Fuga ducimus ut eum exercitationem necessitatibus atque exercitationem odit beatae excepturi nemo sit et aut magni nihil laboriosam velit harum est dolores veniam aut temporibus non earum tempora rerum ab quo est reprehenderit eos recusandae consequatur velit at perferendis ut sed rerum magnam ut maiores rem repellendus et culpa est corporis voluptas quibusdam architecto dolor reiciendis fuga iusto nam ad.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/elina_jansen",
+			"github": "https://github.com/elina_jansen",
+			"instagram": "https://www.instagram.com/elina_jansen",
+			"twitter": "https://twitter.com/elina_jansen"
+		},
+		"id": "2-6",
+		"image": {
+			"banner": "https://picsum.photos/seed/elina_jansen/400/200",
+			"thumb": "https://picsum.photos/seed/elina_jansen/200/200",
+			"large": "https://picsum.photos/seed/elina_jansen/800/400"
+		}
+	},
+	"id": "2-6",
+	"created": "2023-02-20 14:16:50"
+}

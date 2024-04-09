@@ -1,0 +1,68 @@
+{
+  "start_date": "23-06-2023",
+  "end_date": "24-06-2023",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2023",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "01:00",
+      "end_time": "08:00",
+      "type": "sleep",
+      "tag": [""],
+      "description": "Overnachting @ Courtyard by Marriott hotel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "type": "",
+      "tag": ["rawfit"],
+      "description": "Bootcamp",
+      "speakers": "Jan-Paul Plaisier",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "type": "ontbijt",
+      "tag": ["food"],
+      "description": "Ontbijt (in het hotel)",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:30",
+      "end_time": "12:30",
+      "type": "",
+      "tag": [""],
+      "description": "Teambuilding",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "type": "lunch",
+      "tag": ["food"],
+      "description": "Lunch (bij Claus)",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:30",
+      "end_time": "",
+      "type": "end",
+      "tag": [""],
+      "description": "Einde",
+      "speakers": "",
+      "location": ""
+    }
+  ]
+}

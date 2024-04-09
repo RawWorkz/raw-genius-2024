@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-1c9d-415d-9c92-a64ea3fb77bb",
+	"bio": {
+		"name": "Chantell",
+		"surname": "Meijer",
+		"uuid": "6ef845d0-5144-4199-a9ac-041f654a655f",
+		"bio": "Consequatur aut consequatur dignissimos mollitia doloribus quibusdam explicabo sunt facilis adipisci tenetur qui laudantium culpa expedita consequuntur cumque in autem minus ipsa explicabo similique accusantium voluptatibus distinctio est quos quo et veritatis quia et nulla eligendi ut aut voluptatum et et qui eum non odit eum ea et totam sed aliquam explicabo minima iste beatae nisi consequatur dolores vel necessitatibus.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/chantell_meijer",
+			"github": "https://github.com/chantell_meijer",
+			"instagram": "https://www.instagram.com/chantell_meijer",
+			"twitter": "https://twitter.com/chantell_meijer"
+		},
+		"id": "0-5",
+		"image": {
+			"banner": "https://picsum.photos/seed/chantell_meijer/400/200",
+			"thumb": "https://picsum.photos/seed/chantell_meijer/200/200",
+			"large": "https://picsum.photos/seed/chantell_meijer/800/400"
+		}
+	},
+	"id": "0-5",
+	"created": "2023-02-20 14:16:50"
+}

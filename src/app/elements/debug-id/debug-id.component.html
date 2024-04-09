@@ -1,0 +1,9 @@
+<section class="container-debug-id" *ngIf="!isProduction">
+
+	<ul class="list-group">
+		<li *ngFor="let li of list; let i = index" class="list-group-item">
+			<a [href]="'#' + li.id">{{li.id}}</a>
+		</li>
+	</ul>
+
+</section>

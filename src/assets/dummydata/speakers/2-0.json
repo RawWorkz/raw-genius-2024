@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-b32a-4538-9401-d678439ed036",
+	"bio": {
+		"name": "Queenie",
+		"surname": "Jansen",
+		"uuid": "6ef845d0-9cff-4d0a-bd60-9eea8212a638",
+		"bio": "Reprehenderit voluptate deleniti mollitia ducimus amet dolor et occaecati reprehenderit cupiditate id ea excepturi distinctio autem tempore deserunt ut placeat qui quia quos fugit aut porro vero autem neque ipsa est rem quis soluta omnis quia magni aut et laborum praesentium autem ea veritatis ex non quasi soluta explicabo tempora ab sit corrupti omnis qui minima dolorem culpa odio inventore.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/queenie_jansen",
+			"github": "https://github.com/queenie_jansen",
+			"instagram": "https://www.instagram.com/queenie_jansen",
+			"twitter": "https://twitter.com/queenie_jansen"
+		},
+		"id": "2-0",
+		"image": {
+			"banner": "https://picsum.photos/seed/queenie_jansen/400/200",
+			"thumb": "https://picsum.photos/seed/queenie_jansen/200/200",
+			"large": "https://picsum.photos/seed/queenie_jansen/800/400"
+		}
+	},
+	"id": "2-0",
+	"created": "2023-02-20 14:16:50"
+}

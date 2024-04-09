@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-3c41-4f83-b4d3-4f77f3a3b4a0",
+	"bio": {
+		"name": "Zane",
+		"surname": "Bakker",
+		"uuid": "6ef845d0-6d21-4285-8dc3-d681081817c5",
+		"bio": "Veniam fuga asperiores soluta odit repellendus sit optio et id dolorem veniam consectetur ab voluptas consequatur maxime quae quia qui rerum occaecati velit animi ratione quisquam explicabo illum quasi dolor quo libero ut quia qui odio hic cum quidem totam molestiae consequatur dicta dolores aliquid voluptas eos consequatur aliquid eum in sapiente ut consequuntur quam dolores omnis vero veritatis neque.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/zane_bakker",
+			"github": "https://github.com/zane_bakker",
+			"instagram": "https://www.instagram.com/zane_bakker",
+			"twitter": "https://twitter.com/zane_bakker"
+		},
+		"id": "1-2",
+		"image": {
+			"banner": "https://picsum.photos/seed/zane_bakker/400/200",
+			"thumb": "https://picsum.photos/seed/zane_bakker/200/200",
+			"large": "https://picsum.photos/seed/zane_bakker/800/400"
+		}
+	},
+	"id": "1-2",
+	"created": "2023-02-20 14:16:50"
+}

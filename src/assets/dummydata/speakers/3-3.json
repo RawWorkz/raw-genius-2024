@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-d205-431d-a7ed-f75c45a96211",
+	"bio": {
+		"name": "Alysa",
+		"surname": "Janssen",
+		"uuid": "6ef845d0-f840-46f4-b92b-a43850b5c649",
+		"bio": "Quis occaecati aut dolor blanditiis ut laudantium magni libero necessitatibus aut mollitia voluptatum recusandae quam aliquid temporibus dolores incidunt et esse voluptas in eos ratione deleniti ut sed sed aliquam unde est quo nemo aut dolorem est inventore consequatur quidem architecto nisi tenetur fugiat neque illum odio ut doloribus saepe nihil accusantium quia maiores error ut dicta sit porro sed.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/alysa_janssen",
+			"github": "https://github.com/alysa_janssen",
+			"instagram": "https://www.instagram.com/alysa_janssen",
+			"twitter": "https://twitter.com/alysa_janssen"
+		},
+		"id": "3-3",
+		"image": {
+			"banner": "https://picsum.photos/seed/alysa_janssen/400/200",
+			"thumb": "https://picsum.photos/seed/alysa_janssen/200/200",
+			"large": "https://picsum.photos/seed/alysa_janssen/800/400"
+		}
+	},
+	"id": "3-3",
+	"created": "2023-02-20 14:16:50"
+}

@@ -1,0 +1,27 @@
+.container-debug {
+	// border-width: 0.5rem;
+	// border-width: 0.5rem;
+
+	position: relative;
+	&::before {
+		content: "🐞 container-debug";
+		position: absolute;
+		display: inline-block;
+		left: -0rem;
+		top: -0rem;
+
+		border-radius: 2px;
+
+		color: #664d03;
+		background-color: #fff3cd;
+		// border: 1px solid #ffecb5;
+		border: 1px solid #664d03;
+
+		font-size: 9px;
+		padding-left: 5px;
+		padding-right: 5px;
+
+		// transform: translate(0, 0);
+		transform: translate(0, -0.5rem);
+	}
+}

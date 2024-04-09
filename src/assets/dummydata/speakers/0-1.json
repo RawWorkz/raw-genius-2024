@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-6b24-4d08-aa8e-3272228277a5",
+	"bio": {
+		"name": "Queenie",
+		"surname": "De Boer",
+		"uuid": "6ef845d0-2033-42ca-afe0-6abbc1c9ad2e",
+		"bio": "Sunt nesciunt beatae esse eveniet unde eligendi earum mollitia consectetur autem nam aut et nihil nisi alias quia aut nesciunt similique animi ex porro perspiciatis reprehenderit sunt voluptatem nam necessitatibus quisquam et nesciunt est excepturi minus est aut quis cum qui sapiente aut deleniti qui magnam ipsa culpa dolorum vitae veniam eveniet commodi sint expedita quae ex quia fugiat non.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/queenie_de_boer",
+			"github": "https://github.com/queenie_de_boer",
+			"instagram": "https://www.instagram.com/queenie_de_boer",
+			"twitter": "https://twitter.com/queenie_de_boer"
+		},
+		"id": "0-1",
+		"image": {
+			"banner": "https://picsum.photos/seed/queenie_de_boer/400/200",
+			"thumb": "https://picsum.photos/seed/queenie_de_boer/200/200",
+			"large": "https://picsum.photos/seed/queenie_de_boer/800/400"
+		}
+	},
+	"id": "0-1",
+	"created": "2023-02-20 14:16:50"
+}

@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-9346-4e76-a81a-4fc415409895",
+	"bio": {
+		"name": "Elina",
+		"surname": "Vos",
+		"uuid": "6ef845d0-7b8b-4289-8f52-8d3a790869c4",
+		"bio": "Est voluptas illo quam quam ipsam eos impedit delectus quo nam quibusdam impedit non non dolor expedita alias ab harum sunt ut nihil non aut quis qui cum odio quis tenetur occaecati esse nisi dolore laudantium rem nisi iste doloribus autem voluptatum dolor praesentium minima sint velit facilis autem consequatur sunt facere eaque dignissimos iure rerum doloremque dolor voluptas commodi.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/elina_vos",
+			"github": "https://github.com/elina_vos",
+			"instagram": "https://www.instagram.com/elina_vos",
+			"twitter": "https://twitter.com/elina_vos"
+		},
+		"id": "0-2",
+		"image": {
+			"banner": "https://picsum.photos/seed/elina_vos/400/200",
+			"thumb": "https://picsum.photos/seed/elina_vos/200/200",
+			"large": "https://picsum.photos/seed/elina_vos/800/400"
+		}
+	},
+	"id": "0-2",
+	"created": "2023-02-20 14:16:50"
+}

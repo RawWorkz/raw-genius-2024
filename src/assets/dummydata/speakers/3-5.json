@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-5780-4ba5-a2d1-c6114bc72d6e",
+	"bio": {
+		"name": "Shaina",
+		"surname": "Hendriks",
+		"uuid": "6ef845d0-8d6a-4b54-868e-d1af38bc9a75",
+		"bio": "Et necessitatibus impedit reiciendis hic et ut porro aut fugiat et ut provident illum illo tenetur sequi maiores sint et itaque quo eos quas et ipsa dicta voluptas tempora ex repellendus voluptatem commodi quia officiis voluptas laboriosam non nulla tempora consequuntur culpa ab optio aliquam nostrum recusandae eaque nisi inventore magnam adipisci beatae ad rerum inventore totam esse neque sunt.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/shaina_hendriks",
+			"github": "https://github.com/shaina_hendriks",
+			"instagram": "https://www.instagram.com/shaina_hendriks",
+			"twitter": "https://twitter.com/shaina_hendriks"
+		},
+		"id": "3-5",
+		"image": {
+			"banner": "https://picsum.photos/seed/shaina_hendriks/400/200",
+			"thumb": "https://picsum.photos/seed/shaina_hendriks/200/200",
+			"large": "https://picsum.photos/seed/shaina_hendriks/800/400"
+		}
+	},
+	"id": "3-5",
+	"created": "2023-02-20 14:16:50"
+}

@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-1c54-4167-a93e-354f37a472e6",
+	"bio": {
+		"name": "Ingeborg",
+		"surname": "Jansen",
+		"uuid": "6ef845d0-1fcc-4255-91a5-2918da365128",
+		"bio": "Non sed voluptas et dolor dicta adipisci voluptatum distinctio iste pariatur dolor fuga ut ratione debitis quia eius sit minima inventore et quasi voluptas odio ex aut dignissimos voluptatem adipisci harum vel inventore ut consequatur consequatur quod libero pariatur voluptatum voluptatem aperiam molestias vero et et sit itaque earum neque pariatur inventore qui nulla id dolor id ea autem soluta.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/ingeborg_jansen",
+			"github": "https://github.com/ingeborg_jansen",
+			"instagram": "https://www.instagram.com/ingeborg_jansen",
+			"twitter": "https://twitter.com/ingeborg_jansen"
+		},
+		"id": "2-2",
+		"image": {
+			"banner": "https://picsum.photos/seed/ingeborg_jansen/400/200",
+			"thumb": "https://picsum.photos/seed/ingeborg_jansen/200/200",
+			"large": "https://picsum.photos/seed/ingeborg_jansen/800/400"
+		}
+	},
+	"id": "2-2",
+	"created": "2023-02-20 14:16:50"
+}

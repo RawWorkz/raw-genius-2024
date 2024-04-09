@@ -1,0 +1,23 @@
+<section class="container-people">
+	<div class="container">
+		<h2>People</h2>
+		<div class="row">
+			<div *ngFor="let person of data; let i = index" class="col-3">
+				<div class="card">
+					<img [src]="'https://picsum.photos/seed/' + person.username + '200/200'" class="card-img-top"
+						alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">{{ person.name }}</h5>
+						<p class="card-text">
+							{{ person.address.street }}<br />
+							{{ person.address.suite }}<br />
+							{{ person.address.city }}<br />
+							{{ person.address.zipcode }}<br />
+						</p>
+						<a [href]="'https://www.' + person.website" class="btn btn-primary">{{ person.website }}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

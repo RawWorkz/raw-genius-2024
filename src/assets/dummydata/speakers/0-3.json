@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-98d0-4e37-90a6-74fec1388aea",
+	"bio": {
+		"name": "Alysa",
+		"surname": "Meijer",
+		"uuid": "6ef845d0-5a13-47b8-9a88-a3f0e91ae5b0",
+		"bio": "Eos rerum eum saepe eligendi voluptates aperiam a aperiam dicta minus delectus rerum dolor soluta voluptatem vero reprehenderit a laudantium atque aliquam similique qui magnam et iste consequatur sit voluptates delectus voluptatibus mollitia et nisi omnis quia nihil et ratione quia quo nulla veritatis optio doloribus enim doloremque repellat quo sunt corporis ut dolorem autem eum quia beatae unde ut.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/alysa_meijer",
+			"github": "https://github.com/alysa_meijer",
+			"instagram": "https://www.instagram.com/alysa_meijer",
+			"twitter": "https://twitter.com/alysa_meijer"
+		},
+		"id": "0-3",
+		"image": {
+			"banner": "https://picsum.photos/seed/alysa_meijer/400/200",
+			"thumb": "https://picsum.photos/seed/alysa_meijer/200/200",
+			"large": "https://picsum.photos/seed/alysa_meijer/800/400"
+		}
+	},
+	"id": "0-3",
+	"created": "2023-02-20 14:16:50"
+}

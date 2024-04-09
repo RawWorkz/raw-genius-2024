@@ -1,0 +1,23 @@
+// a SCSS wrapper for Angular specific styling, add all "pages" to this list
+// problem: angular uses elements like `app-authorised-layout` which is impossible to style with css by searching for `app-`
+// to have more controle over it, we use this
+
+$component-list: "root", "authorised-layout", "public-layout", "fullscreen-layout";
+$prefix: "app";
+
+@each $c in $component-list {
+	#{$prefix}-#{$c} {
+		// color: red;
+		// background-color: red;
+		// border: 10px solid pink;
+		// display: block;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		app-footer {
+			// border: 10px solid gold;
+			margin-top: auto !important;
+			display: block;
+		}
+	}
+}

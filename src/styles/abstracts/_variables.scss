@@ -1,0 +1,34 @@
+// DEFAULT OPTIONS
+$angular-root-id: "#monkee";
+$project-name: "monkee";
+$version: "0.0.1";
+
+// defaults
+$default-padding: 20px;
+$default-padding-half: calc($default-padding / 2); // 10px
+$default-padding-double: calc($default-padding * 2); // 40px
+$default-padding-big: 60px;
+$default-padding-big-half: calc($default-padding-big / 2); // 30px
+
+// grid padding
+$grid-padding: 20px;
+
+// max size container
+$breakpoint-xxl: 1920px;
+$max-width: $breakpoint-xxl;
+
+// Durations
+$fastDuration: 0.1s !default;
+$mediumDuration: 0.3s !default;
+$slowDuration: 0.5s !default;
+$slowerDuration: 1s !default;
+$duration-500: 0.5s !default;
+
+// box
+$box-shadow-regular: 0 10px 15px 0 rgba(0, 0, 0, 0.15);
+$box-shadow-card: 0px 2px 3px #e5e5e5;
+$box-shadow-large: 0px 4px 30px 4px #e5e5e5;
+
+$border-radius-regular: 0.5rem;
+
+$box-shadow-focus-blue: 0 0 0 0rem rgba(1, 105, 200, 0.25);

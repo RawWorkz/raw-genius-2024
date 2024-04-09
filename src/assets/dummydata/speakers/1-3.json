@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-6f7c-463d-a5b2-d9cd478b5b53",
+	"bio": {
+		"name": "Slyvia",
+		"surname": "Bos",
+		"uuid": "6ef845d0-66aa-4e01-8604-08f0d927cc6d",
+		"bio": "Nesciunt voluptas nam architecto quos et voluptas et molestias id non quis voluptas tenetur aut iusto exercitationem suscipit ut quia ab qui rerum delectus corporis error deleniti ut et et iste placeat animi vel accusantium facere ea voluptate animi omnis repellat laborum harum eos qui et quaerat omnis aperiam quia vel et non ut distinctio et neque velit impedit recusandae.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/slyvia_bos",
+			"github": "https://github.com/slyvia_bos",
+			"instagram": "https://www.instagram.com/slyvia_bos",
+			"twitter": "https://twitter.com/slyvia_bos"
+		},
+		"id": "1-3",
+		"image": {
+			"banner": "https://picsum.photos/seed/slyvia_bos/400/200",
+			"thumb": "https://picsum.photos/seed/slyvia_bos/200/200",
+			"large": "https://picsum.photos/seed/slyvia_bos/800/400"
+		}
+	},
+	"id": "1-3",
+	"created": "2023-02-20 14:16:50"
+}

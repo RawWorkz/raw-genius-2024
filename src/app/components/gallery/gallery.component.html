@@ -1,0 +1,11 @@
+<section class="container-gallery">
+	<div class="container">
+		<h2>Gallery</h2>
+		<div class="row g-0">
+			<div class="col-auto" *ngFor="let person of data; let i = index">
+				<img [src]="person.thumbnailUrl" [alt]="person.title" loading="lazy" width="50" height="50"
+					*ngIf="i < 1000">
+			</div>
+		</div>
+	</div>
+</section>

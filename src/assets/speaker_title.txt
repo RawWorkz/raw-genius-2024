@@ -1,0 +1,14 @@
+ 
+
+Sponsorslot -> n.o.t.k.	N.O.T.K.
+Mark Bonefaas & Gerjon Kunst	Cloud Management Platform
+Matthijs Kamstra	RawGenius, het had zo mooi kunnen zijn! Fails, wins en toekomstige ontwikkelingen
+Roeland van den Bosch	Automatiseren met Azure Function Apps
+Jan-Paul Plaisier	The way to my ultramarathon challenge
+Maurice Diekhorst & Negin Nafassi	Modern Software Engineering in The Legacy World!
+Erwin Gerlich & Tristan Remkes	Workspace 365
+Olivier van den Eertwegh	Van Data tot Inzichten: Een Interactieve Gids voor Data Science in Jupyter Notebook
+Jeroen Buren	How to build your own cloud
+Edwin ten Haaf	CLAAS - Client as a service
+
+ 

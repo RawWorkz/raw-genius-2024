@@ -1,0 +1,40 @@
+@import "src/styles/_default_import.scss";
+
+.wrapper-2-top {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 50%;
+	color: white;
+	background-color: rgba($color: black, $alpha: 0.5);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: 2px solid white;
+
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+
+	transition: bottom 1.5s;
+
+	bottom: -4rem;
+
+	z-index: 100000;
+	a {
+		display: inline-block;
+		padding: 1rem;
+		border-radius: 100%;
+		color: white;
+	}
+	&.show {
+		// border: 10px solid blueviolet;
+		bottom: 2rem;
+	}
+	&.hide {
+		// border: 10px solid green;
+		bottom: -4rem;
+	}
+}

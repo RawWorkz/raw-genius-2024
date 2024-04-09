@@ -1,0 +1,88 @@
+{
+  "start_date": "",
+  "end_date": "",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius",
+
+  "schedule": [
+    {
+      "start_time": "16:15",
+      "end_time": "16:30",
+      "description": "Pauze"
+    },
+    {
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "description": "Mission One Recap en Toekomst",
+      "speakers": "Chris Twiest & Negin Nafissi",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "description": "So you think you can PowerShell",
+      "speakers": "Maurice Diekhorst",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "17:00",
+      "end_time": "17:05",
+      "description": "Sprekers en zaal wissel"
+    },
+    {
+      "start_time": "17:05",
+      "end_time": "17:35",
+      "description": "ITSM in a DevOps landscape",
+      "speakers": "Bart Scheltinga & Jan-Willem Bos",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "17:05",
+      "end_time": "17:35",
+      "description": "Plumber & co. - A shitty story",
+      "speakers": "Maurice Diekhorst & Stan ten Thije",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "17:35",
+      "end_time": "17:40",
+      "description": "Sprekers en zaal wissel"
+    },
+    {
+      "start_time": "17:40",
+      "end_time": "18:10",
+      "description": "Why should I use Nerdio?",
+      "speakers": "Arno Geboers",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "17:40",
+      "end_time": "18:10",
+      "description": "API & PowerShell",
+      "speakers": "Chris Twiest & Chris Jeucken",
+      "location": "Zaal 2"
+    },
+    {
+      "start_time": "18:10",
+      "end_time": "18:15",
+      "description": "Sprekers en zaal wissel"
+    },
+    {
+      "start_time": "18:15",
+      "end_time": "18:45",
+      "description": "De wereld van AI",
+      "speakers": "Yannick Verhoog",
+      "location": "Zaal 1"
+    },
+    {
+      "start_time": "18:45",
+      "end_time": "20:00",
+      "description": "Diner"
+    },
+    {
+      "start_time": "20:00",
+      "end_time": "23:00",
+      "description": "Avondprogramma: Drink, dans en waag je kans!"
+    }
+  ]
+}

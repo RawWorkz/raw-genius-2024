@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-22e3-4ec5-b9fe-ea65a2346302",
+	"bio": {
+		"name": "Queenie",
+		"surname": "De Vries",
+		"uuid": "6ef845d0-a609-48e1-ae6f-42a560bf14e6",
+		"bio": "Porro quibusdam et sed aut at voluptatibus laborum voluptas in fugit corporis aliquam excepturi laudantium deleniti praesentium quidem omnis sed a fuga aliquam vel reiciendis nobis minima deserunt voluptatum sit eos ut aut optio eum nobis facere in dignissimos laborum asperiores voluptate assumenda qui voluptatem sed dolorum quos eos quisquam nihil consequuntur unde non tempore aut eum necessitatibus vel vero.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/queenie_de_vries",
+			"github": "https://github.com/queenie_de_vries",
+			"instagram": "https://www.instagram.com/queenie_de_vries",
+			"twitter": "https://twitter.com/queenie_de_vries"
+		},
+		"id": "3-1",
+		"image": {
+			"banner": "https://picsum.photos/seed/queenie_de_vries/400/200",
+			"thumb": "https://picsum.photos/seed/queenie_de_vries/200/200",
+			"large": "https://picsum.photos/seed/queenie_de_vries/800/400"
+		}
+	},
+	"id": "3-1",
+	"created": "2023-02-20 14:16:50"
+}

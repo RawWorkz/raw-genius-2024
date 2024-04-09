@@ -1,0 +1,11 @@
+<section [id]="id" class="container-ticker">
+	<div class="container">
+		<ul class="ticker">
+			<li *ngFor="let item of list">
+				<a [href]="item.url" target="_blank" rel="noreferrer">
+					<img src="{{item.image}}" title="{{item.title}}" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>

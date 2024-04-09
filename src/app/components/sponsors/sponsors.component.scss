@@ -1,0 +1,38 @@
+.container-ticker {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	height: auto;
+	width: 100%;
+	// border: 1px solid pink;
+
+	// margin: auto;
+	overflow: hidden;
+	position: relative;
+
+	background-color: gray;
+
+	ul.ticker {
+		margin: 0;
+		padding: 0;
+		animation: ticker-animation 18s Linear Infinite;
+		list-style: none;
+		// height: 100px;
+		width: 4000px;
+		// border: 1px solid pink;
+		li {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			padding-right: 50px;
+		}
+	}
+}
+
+@keyframes ticker-animation {
+	0% {
+		transform: Translate3d(0, 0, 0);
+	}
+	100% {
+		transform: Translate3d(-108rem, 0, 0);
+	}
+}

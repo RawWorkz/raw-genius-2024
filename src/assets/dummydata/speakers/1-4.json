@@ -1,0 +1,23 @@
+{
+	"uuid": "6ef845d0-eaaa-40ef-8ec5-dc4b8d99aaff",
+	"bio": {
+		"name": "Zane",
+		"surname": "Van den Berg",
+		"uuid": "6ef845d0-e2c8-4f2d-a095-088cd6215f86",
+		"bio": "Aut sunt beatae iusto officiis ducimus cupiditate aliquid temporibus aut dicta dolor quae tempora doloribus quos itaque alias ex qui quidem consequatur et rerum nihil ut optio cupiditate quod sit officia voluptatibus asperiores dolore quia nulla qui ut voluptates maiores exercitationem omnis dignissimos consequuntur harum et distinctio velit placeat non non rerum repellat iure impedit omnis quae nemo exercitationem quia.",
+		"socials": {
+			"linkedin": "https://www.linkedin.com/in/zane_van_den_berg",
+			"github": "https://github.com/zane_van_den_berg",
+			"instagram": "https://www.instagram.com/zane_van_den_berg",
+			"twitter": "https://twitter.com/zane_van_den_berg"
+		},
+		"id": "1-4",
+		"image": {
+			"banner": "https://picsum.photos/seed/zane_van_den_berg/400/200",
+			"thumb": "https://picsum.photos/seed/zane_van_den_berg/200/200",
+			"large": "https://picsum.photos/seed/zane_van_den_berg/800/400"
+		}
+	},
+	"id": "1-4",
+	"created": "2023-02-20 14:16:50"
+}
