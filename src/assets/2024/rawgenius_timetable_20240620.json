@@ -1,0 +1,48 @@
+{
+  "start_date": "20-06-2024",
+  "end_date": "21-06-2024",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2024 donderdag 20 juni 2024",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "type": "",
+      "tag": [""],
+      "description": "Verzamelen hotel (NHow Rotterdam)",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "type": "",
+      "tag": [""],
+      "description": "Busreis naar zomerfeest Interstellar",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "type": "diner",
+      "tag": ["food"],
+      "description": "Zomerfeest + eten",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "22:00",
+      "end_time": "23:00",
+      "type": "travel",
+      "tag": [""],
+      "description": "Busreis naar hotel (NHow Rotterdam)",
+      "speakers": "",
+      "location": ""
+    }
+  ]
+}

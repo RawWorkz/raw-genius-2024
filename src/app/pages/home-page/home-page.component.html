@@ -12,7 +12,16 @@
 			<code>environment.text: {{this.isProductionText}}</code>
 		</li>
 		<li>
+			<code>countdown deadline {{convertDate(registerDate)}}: {{toRegister}} <app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count></code>
+		</li>
+		<li>
 			<code>countdown event {{convertDate(eventDate)}}: {{toEvent}} <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count></code>
+		</li>
+		<li>
+			<code>deadline date registratie: {{this.registerDate | date:"MMM dd, yyyy 'at' hh:mm a"}}</code>
+		</li>
+		<li>
+			<code>date event: {{this.eventDate | date:"MMM dd, yyyy 'at' hh:mm a"}}</code>
 		</li>
 	</ul>
 </section>
@@ -72,10 +81,17 @@
 <app-anchor id="programma"></app-anchor>
 <section class="container container-style">
 	<app-title title="🚃 Programma" subtitle="be there or be square"></app-title>
-	<app-schedule-two title="Vrijdag 23 juni 2023" url="/assets/rawworks_genius_2023_timetable.json"></app-schedule-two>
+	<app-schedule-two title="Donderdag 20 juni 2024"
+		url="assets/2024/rawgenius_timetable_20240620.json"></app-schedule-two>
 	<br class="mt-3" />
-	<app-schedule-two title="Zaterdag 24 juni 2023"
-		url="/assets/rawworks_genius_2023_timetable_saterday.json"></app-schedule-two>
+	<app-schedule-two title="Donderdag 20 juni 2024"
+		url="assets/2024/rawgenius_timetable_20240620.json"></app-schedule-two>
+	<br class="mt-3" />
+	<app-schedule-two title="Vrijdag 21 juni 2024"
+		url="assets/2024/rawgenius_timetable_20240620.json"></app-schedule-two>
+	<br class="mt-3" />
+	<app-schedule-two title="Zaterdag 22 juni 2024"
+		url="assets/2024/rawgenius_timetable_20240620.json"></app-schedule-two>
 </section>
 
 <!--
