@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-
 import { DataService } from 'src/app/services/data.service';
 import { FeatureFlagsService } from 'src/app/services/feature-flags.service';
 import { Constants } from 'src/app/shared/config/constants';
-
 import { IRoot } from 'src/app/shared/interfaces/i-root';
-
 import { environment } from 'src/environments/environment';
 
 @Component({
