@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
-import { FeatureFlagsService } from 'src/app/services/feature-flags.service';
 import { Constants } from 'src/app/shared/config/constants';
 import { IRoot } from 'src/app/shared/interfaces/i-root';
 import { environment } from 'src/environments/environment';
@@ -31,8 +30,7 @@ export class HomePageComponent implements OnInit {
 	isProductionText = environment.text;
 
 	constructor(
-		private dataService: DataService,
-		public featureFlagService: FeatureFlagsService
+		private dataService: DataService
 	) { }
 
 	ngOnInit(): void {
@@ -83,10 +81,6 @@ export class HomePageComponent implements OnInit {
 				console.error('There was an error!', error);
 			}
 		});
-	}
-
-	isFeatureEnabled(key: string) {
-		return this.featureFlagService.isFeatureEnabled(key);
 	}
 
 	convertDate(date: Date) {

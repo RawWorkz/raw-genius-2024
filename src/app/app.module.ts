@@ -70,11 +70,8 @@ import { SchedulesPageComponent } from './pages/schedules-page/schedules-page.co
 import { SessionsPageComponent } from './pages/sessions-page/sessions-page.component';
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
-import { FeatureFlagsService } from './services/feature-flags.service';
 import { DebugDirective } from './shared/directives/debug.directive';
-import { FeatureFlagDirective } from './shared/directives/feature-flag.directive';
 
-const featureFactory = (featureFlagsService: FeatureFlagsService) => () => featureFlagsService.loadConfig();
 
 
 
@@ -97,7 +94,6 @@ const featureFactory = (featureFlagsService: FeatureFlagsService) => () => featu
 		CtaComponent,
 		DebugDirective,
 		DebugIdComponent,
-		FeatureFlagDirective,
 		FooterComponent,
 		FullscreenLayoutComponent,
 		GalleryComponent,
@@ -149,12 +145,7 @@ const featureFactory = (featureFlagsService: FeatureFlagsService) => () => featu
 	],
 	providers: [
 		DebugDirective,
-		{
-			provide: APP_INITIALIZER,
-			useFactory: featureFactory,
-			deps: [FeatureFlagsService],
-			multi: true
-		}],
+	],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }
