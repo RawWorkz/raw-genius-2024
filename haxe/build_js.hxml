@@ -1,0 +1,10 @@
+-cp src
+-D analyzer-optimize
+--dce full
+-main Main
+-js docs/main.js
+-D js-es=6
+# -D source-map-content
+# -debug
+
+

@@ -1,9 +1,64 @@
-Zaterdag 22 juni
-
-07:00 - 09:00 Ontbijt + uitchecken
-09:00 - 09:30 Verzamelen lobby + lopen naar activiteit
-09:30 - 09:45 Ontvangst activiteit
-09:45 - 12:15 Activiteit
-12:15 - 12:30 Afsluiting activiteit
-12:30 - 12:45 Terug naar het hotel lopen
-12:45 - 13:00 Einde
+{
+  "start_date": "22-06-2024",
+  "end_date": "23-06-2024",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2024 zaterdag 22 juni 2024",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "07:00",
+      "end_time": "09:00",
+      "type": "",
+      "tag": ["food"],
+      "description": "Ontbijt + uitchecken"
+    },
+    {
+      "_id": "",
+      "start_time": "09:00",
+      "end_time": "09:30",
+      "type": "",
+      "tag": [],
+      "description": "Verzamelen lobby + lopen naar activiteit"
+    },
+    {
+      "_id": "",
+      "start_time": "09:30",
+      "end_time": "09:45",
+      "type": "",
+      "tag": [],
+      "description": "Ontvangst activiteit"
+    },
+    {
+      "_id": "",
+      "start_time": "09:45",
+      "end_time": "12:15",
+      "type": "",
+      "tag": [],
+      "description": "Activiteit"
+    },
+    {
+      "_id": "",
+      "start_time": "12:15",
+      "end_time": "12:30",
+      "type": "",
+      "tag": [],
+      "description": "Afsluiting activiteit"
+    },
+    {
+      "_id": "",
+      "start_time": "12:30",
+      "end_time": "12:45",
+      "type": "",
+      "tag": [],
+      "description": "Terug naar het hotel lopen"
+    },
+    {
+      "_id": "",
+      "start_time": "12:45",
+      "end_time": "13:00",
+      "type": "",
+      "tag": [],
+      "description": "Einde"
+    }
+  ]
+}

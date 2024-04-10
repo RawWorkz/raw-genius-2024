@@ -1,12 +1,108 @@
-Vrijdag 21 juni
-
-07:30 - 08:30 Ontbijt
-08:30 - 09:30 Sporten
-10:00 - 16:55 RawGenius kennissessies + lunch + pauzes
-16:55 - 17:00 Afsluiting kennissessies
-17:00 - 17:45 Opfrissen
-17:45 - 18:00 Verzamelen lobby + reis naar locatie
-18:00 - 20:30 4-gangen diner
-20:45 - 23:00 Nederland vs Frankrijk + borrel
-23:00 - 23:58 Borrel
-23:58 - 23:59 Einde vrijdag programma + e.v.t. nachtleven verkennen (op eigen kosten)
+{
+  "start_date": "21-06-2024",
+  "end_date": "22-06-2024",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2024 vrijdag 21 juni 2024",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "type": "",
+      "tag": ["food"],
+      "description": "Ontbijt",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "08:30",
+      "end_time": "09:30",
+      "type": "",
+      "tag": ["rawfit"],
+      "description": "Sporten",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:00",
+      "end_time": "16:55",
+      "type": "",
+      "tag": [""],
+      "description": "RawGenius kennissessies + lunch + pauzes",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:55",
+      "end_time": "17:00",
+      "type": "",
+      "tag": [""],
+      "description": "Afsluiting kennissessies",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "17:00",
+      "end_time": "17:45",
+      "type": "",
+      "tag": [""],
+      "description": "Opfrissen",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "17:45",
+      "end_time": "18:00",
+      "type": "",
+      "tag": [""],
+      "description": "Verzamelen lobby + reis naar locatie",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "18:00",
+      "end_time": "20:30",
+      "type": "",
+      "tag": ["food"],
+      "description": "4-gangen diner",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "20:45",
+      "end_time": "23:00",
+      "type": "",
+      "tag": [""],
+      "description": "Nederland vs Frankrijk + borrel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "23:00",
+      "end_time": "23:58",
+      "type": "",
+      "tag": [""],
+      "description": "Borrel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "23:58",
+      "end_time": "23:59",
+      "type": "",
+      "tag": [""],
+      "description": "Einde vrijdag programma + e.v.t. nachtleven verkennen (op eigen kosten)",
+      "speakers": "",
+      "location": ""
+    }
+  ]
+}

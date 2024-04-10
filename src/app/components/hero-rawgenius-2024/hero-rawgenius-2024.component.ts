@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 
 @Component({
@@ -10,9 +12,29 @@ export class HeroRawGenius2024Component implements OnInit {
 
 	title = 'app-hero-rawgenius-2024';
 
-	constructor() { }
+	containerID = "container-hero-svg2";
+
+
+	constructor(
+		private http: HttpClient,
+	) { }
 
 	ngOnInit(): void {
+		let container = document.getElementById(this.containerID);
+		if (container === null) return;
+		let url = container.querySelector("img")?.src;
+		// console.log(url);
+		if (url === undefined) return;
+		this.http.get(url, { responseType: 'text' }).subscribe({
+			next(value) {
+				console.log(value);
+			},
+			error(err) {
+				console.log(err);
+
+			},
+		});
+
 
 	}
 

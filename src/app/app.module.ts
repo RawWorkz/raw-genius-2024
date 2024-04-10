@@ -71,6 +71,7 @@ import { SessionsPageComponent } from './pages/sessions-page/sessions-page.compo
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
 import { DebugDirective } from './shared/directives/debug.directive';
+import { ScheduleThreeComponent } from './components/schedule-three/schedule-three.component';
 
 
 
@@ -136,6 +137,7 @@ import { DebugDirective } from './shared/directives/debug.directive';
 		PlattegrondPageComponent,
 		LocationPageComponent,
 		OffcanvasComponent,
+  ScheduleThreeComponent,
 	],
 	imports: [
 		BrowserModule,

@@ -1,10 +1,10 @@
 # TODO
 
 - [ ] https://www.nhow-hotels.com/nl/nhow-rotterdam
-- [ ] planning
-  - [ ] donderdag 20-06-2024
-  - [ ] vrijdag 21-06-2024
-  - [ ] zaterdag 22-06-2024
+- [x] planning
+  - [x] donderdag 20-06-2024
+  - [x] vrijdag 21-06-2024
+  - [x] zaterdag 22-06-2024
 - [ ] hero
   - [ ] hero design
   - [ ] hero animatie
@@ -12,8 +12,17 @@
 - [ ] design
   - [ ] hero
 - [ ] date
-- [ ] in je agenda
-- [ ] locaties
+- [x] in je agenda
+- [x] locaties
 - [ ] planning
 - [ ] deadlines
-- [ ]
+- [ ] locatie
+- [x] agenda
+- [ ] svg settings
+- [ ] svg script import
+
+## locatie
+
+Wilhelminakade 137
+3072 AP - Rotterdam
++31 (0)10 206 7600
