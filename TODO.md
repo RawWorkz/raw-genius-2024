@@ -1,6 +1,8 @@
 # TODO
 
 - [ ] https://www.nhow-hotels.com/nl/nhow-rotterdam
+- [ ] https://ical.marudot.com/
+- [ ] generiek methode om meer en sneller dit soort websites te maken
 - [x] planning
   - [x] donderdag 20-06-2024
   - [x] vrijdag 21-06-2024
