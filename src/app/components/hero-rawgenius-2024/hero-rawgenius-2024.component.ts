@@ -14,7 +14,6 @@ export class HeroRawGenius2024Component implements OnInit {
 
 	containerID = "container-hero-svg2";
 
-
 	constructor(
 		private http: HttpClient,
 	) { }
@@ -56,54 +55,87 @@ export class HeroRawGenius2024Component implements OnInit {
 		document.getElementById(ringID)?.setAttribute('class', 'rawgenius-ring');
 		document.getElementById(astronautID)?.setAttribute('class', 'rawgenius-astronaut');
 
+		// let transformRing = document.getElementById(ringID)?.getAttribute('transform'); // translate(1612.144 615.962)
+		// let posRing: { x: number, y: number } = this.convertTransform(transformRing);
+		// let ringX = posRing.x;
+		// let ringY = posRing.y;
+		// console.log(posRing);
 
-		let transformRing = document.getElementById(ringID)?.getAttribute('transform'); // translate(1612.144 615.962)
-		let posRing: { x: number, y: number } = this.convertTransform(transformRing);
-		let ringX = posRing.x;
-		let ringY = posRing.y;
-		console.log(posRing);
+		// let transformPlanet = document.getElementById(planetID)?.getAttribute('transform'); // translate(1612.144 615.962)
+		// let posPlanet: { x: number, y: number } = this.convertTransform(transformPlanet);
+		// let planetX = posPlanet.x;
+		// let planetY = posPlanet.y;
+		// console.log(posPlanet);
 
-		let transformPlanet = document.getElementById(planetID)?.getAttribute('transform'); // translate(1612.144 615.962)
-		let posPlanet: { x: number, y: number } = this.convertTransform(transformPlanet);
-		let planetX = posPlanet.x;
-		let planetY = posPlanet.y;
-		console.log(posPlanet);
-
-
+		let planetObj = this.getDataFrom(document.getElementById(planetID));
+		console.log(planetObj);
+		let ringObj = this.getDataFrom(document.getElementById(ringID));
+		console.log(ringObj);
+		let astronautObj = this.getDataFrom(document.getElementById(astronautID));
+		console.log(astronautObj);
+		let starObj = this.getDataFrom(document.getElementById(starID));
+		console.log(starObj);
 
 		// inject css
 		// Inject CSS
 		const css = `
 
 		:root {
-			--planet-x: ${planetX}px;
-			--planet-y: ${planetY}px;
-			--ring-x: ${ringX}px;
-			--ring-y: ${ringY}px;
+			--planet-x: ${planetObj.x}px;
+			--planet-y: ${planetObj.y}px;
+			--ring-x: ${ringObj.x}px;
+			--ring-y: ${ringObj.y}px;
+			--astronaut-x: ${astronautObj.x}px;
+			--astronaut-y: ${astronautObj.y}px;
+			--star-x: ${starObj.x}px;
+			--star-y: ${starObj.y}px;
+		}
+
+		@keyframes rawgenius-planet-animation {
+			0% {
+				transform: translate(var(--planet-x), calc(var(--planet-y) + 2%)) rotate(+0deg);
+			}
+			50% {
+				transform: translate(var(--planet-x), calc(var(--planet-y) - 2%)) rotate(-0deg);
+			}
+			100% {
+				transform: translate(var(--planet-x), calc(var(--planet-y) + 2%)) rotate(0deg);
+			}
 		}
 
 		@keyframes rawgenius-ring-animation {
 			0% {
-				transform: translate(var(--ring-x), calc(var(--ring-y) + 1%)) rotate(-0deg);
+				transform: translate(var(--ring-x), calc(var(--ring-y) + 2%)) rotate(-0deg);
 			}
 			50% {
-				transform: translate(var(--ring-x), calc(var(--ring-y) - 1%)) rotate(+0deg);
+				transform: translate(var(--ring-x), calc(var(--ring-y) - 2%)) rotate(+0deg);
 			}
 			100% {
-				transform: translate(var(--ring-x), calc(var(--ring-y) + 1%)) rotate(-0deg);
+				transform: translate(var(--ring-x), calc(var(--ring-y) + 2%)) rotate(-0deg);
+			}
+		}
+		@keyframes rawgenius-astronaut-animation {
+			0% {
+				transform: rotate(-10deg);
+			}
+			50% {
+				transform: rotate(+10deg);
+			}
+			100% {
+				transform: rotate(-10deg);
 			}
 		}
 
 
 		@keyframes _______rawgenius-ring-animation {
 			0% {
-				transform: translate(${ringX + 1}px, ${ringY + 1}px) rotate(-2deg);
+				transform: translate(${ringObj.x + 1}px, ${ringObj.y + 1}px) rotate(-2deg);
 			}
 			50% {
-				transform: translate(${ringX}px, ${ringY - 1}px) rotate(2deg);
+				transform: translate(${ringObj.x}px, ${ringObj.y - 1}px) rotate(2deg);
 			}
 			100% {
-				transform: translate(${ringX}px, ${ringY + 1}px) rotate(-2deg);
+				transform: translate(${ringObj.x}px, ${ringObj.y + 1}px) rotate(-2deg);
 			}
 		}
 
@@ -125,20 +157,81 @@ export class HeroRawGenius2024Component implements OnInit {
 			opacity: .9 !important;
 			transform: translate(var(--ring-x), var(--ring-y));
 			_transform-origin: calc(840px * 0.5) calc(481px * 0.5);
-			_ringx: ${ringX};
-			_ringy: ${ringY};
-			transform-origin: ${ringX + (840 * 0.5)}px ${ringY + (481 * 0.5)}px;
+			_ringx: ${ringObj.x};
+			_ringy: ${ringObj.y};
+			transform-origin: ${ringObj.x + (ringObj.w * 0.5)}px ${ringObj.y + (ringObj.h * 0.5)}px;
 			animation: rawgenius-ring-animation 10s ease-in-out infinite;
 		}
 
-		._rawgenius-ring,
-		.rawgenius-planet,
-		.rawgenius-star,
-		.rawgenius-astronaut {
-			fill: pink !important;
+
+		.rawgenius-planet {
+			opacity: 1.0 !important;
+			transform-origin: ${planetObj.x + (planetObj.w * 0.5)}px ${planetObj.y + (planetObj.h * 0.5)}px;
+			animation: rawgenius-planet-animation 12s ease-in-out infinite;
 		}
+
+		.rawgenius-astronaut {
+			opacity: 1.0 !important;
+			// transform-origin: center;
+			transform-origin: ${astronautObj.x + (astronautObj.w * 0.5)}px ${astronautObj.y + (astronautObj.h * 0.5)}px;
+			animation: rawgenius-astronaut-animation 20s ease-in-out infinite;
+		}
+
+
         `;
 		this.injectCSS(css);
+	}
+
+	getDataFrom(el: HTMLElement | null): { _id: string, x: number, y: number, w: number, h: number } {
+		let value = { _id: '', x: 0, y: 0, w: 0, h: 0 }
+		if (!el) return value;
+
+		console.group('get data from element');
+		console.log(el);
+
+		let ii = el.getAttribute('id');
+		let ww = el.getAttribute('width');
+		let hh = el.getAttribute('height');
+		let xx = el.getAttribute('x');
+		let yy = el.getAttribute('y');
+
+		if (ii) {
+			value._id = (ii);
+		}
+		if (ww) {
+			value.w = parseFloat(ww);
+		}
+		if (hh) {
+			value.h = parseFloat(hh);
+		}
+		if (xx) {
+			value.x = parseFloat(xx);
+		}
+		if (yy) {
+			value.y = parseFloat(yy);
+		}
+
+
+		let transform = el.getAttribute('transform');
+		if (transform) {
+			let array: Array<string> = transform.replace('translate', '').replace('(', '').replace(')', '').split(' ');
+			// console.log(array);
+			value.x = parseFloat(array[0]);
+			value.y = parseFloat(array[1]);
+		}
+		let domRect: DOMRect = el.getBoundingClientRect();
+		console.log(domRect);
+		// console.log(el.getBoundingClientRect());
+		// console.log(el.offsetWidth);
+		// console.log(el.offsetHeight);
+		if (domRect) {
+			value.w = domRect.width;
+			value.h = domRect.height;
+		}
+
+		console.groupEnd();
+
+		return value;
 	}
 
 
