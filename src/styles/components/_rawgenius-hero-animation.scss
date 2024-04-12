@@ -4,3 +4,57 @@
 ._rawgenius-astronaut {
 	fill: white !important;
 }
+
+@keyframes rawgenius-astronaut-animation-x {
+	0% {
+		transform: translate(+50px, 0px);
+	}
+	50% {
+		transform: translate(-50px, 0px);
+	}
+	100% {
+		transform: translate(+50px, 0px);
+	}
+}
+
+@keyframes rawgenius-astronaut-animation-y {
+	0% {
+		transform: translate(0px, +50px);
+	}
+	50% {
+		transform: translate(0px, -50px);
+	}
+	100% {
+		transform: translate(0px, +50px);
+	}
+}
+
+.rawgenius-astronaut-wrapper-x {
+	animation: rawgenius-astronaut-animation-x 30s ease-in-out infinite;
+}
+.rawgenius-astronaut-wrapper-y {
+	animation: rawgenius-astronaut-animation-y 40s ease-in-out infinite;
+}
+
+@keyframes rawgenius-star-animation {
+	0% {
+		// transform-origin: center;
+		// transform: rotate(90deg);
+		opacity: 1;
+	}
+	50% {
+		// transform-origin: center;
+		// transform: rotate(0deg);
+		opacity: 0.3;
+	}
+	100% {
+		// transform-origin: center;
+		// transform: rotate(90deg);
+		opacity: 1;
+	}
+}
+
+.rawgenius-star-wrapper {
+	transform-origin: center;
+	animation: rawgenius-star-animation 13s ease-in-out infinite;
+}

@@ -76,6 +76,11 @@ export class HeroRawGenius2024Component implements OnInit {
 		let starObj = this.getDataFrom(document.getElementById(starID));
 		console.log(starObj);
 
+
+		this.wrapElementWithGroup(document.getElementById(starID), 'rawgenius-star-id', 'rawgenius-star-wrapper');
+		this.wrapElementWithGroup(document.getElementById(astronautID), 'rawgenius-astronaut-id', 'rawgenius-astronaut-wrapper-x');
+		this.wrapElementWithGroup(document.getElementById('rawgenius-astronaut-id'), '', 'rawgenius-astronaut-wrapper-y');
+
 		// inject css
 		// Inject CSS
 		const css = `
@@ -114,6 +119,7 @@ export class HeroRawGenius2024Component implements OnInit {
 				transform: translate(var(--ring-x), calc(var(--ring-y) + 2%)) rotate(-0deg);
 			}
 		}
+
 		@keyframes rawgenius-astronaut-animation {
 			0% {
 				transform: rotate(-10deg);
@@ -152,7 +158,6 @@ export class HeroRawGenius2024Component implements OnInit {
 		}
 
 
-
 		.rawgenius-ring {
 			opacity: .9 !important;
 			transform: translate(var(--ring-x), var(--ring-y));
@@ -162,7 +167,6 @@ export class HeroRawGenius2024Component implements OnInit {
 			transform-origin: ${ringObj.x + (ringObj.w * 0.5)}px ${ringObj.y + (ringObj.h * 0.5)}px;
 			animation: rawgenius-ring-animation 10s ease-in-out infinite;
 		}
-
 
 		.rawgenius-planet {
 			opacity: 1.0 !important;
@@ -177,9 +181,41 @@ export class HeroRawGenius2024Component implements OnInit {
 			animation: rawgenius-astronaut-animation 20s ease-in-out infinite;
 		}
 
+		.rawgenius-star {
+			// opacity: 1.0 !important;
+			// transform-origin: ${(starObj.w * 0.5)}px ${(starObj.h * 0.5)}px;
+			// transform: rotate(0deg);
+
+		}
+
 
         `;
 		this.injectCSS(css);
+	}
+
+
+	wrapElementWithGroup(el: HTMLElement | null, id: string = '', className: string = '') {
+		if (el === null) return;
+		// Create a new group element
+		var svgNS = "http://www.w3.org/2000/svg";
+		var group = document.createElementNS(svgNS, 'g');
+
+		// Set attributes for the group (optional)
+		group.setAttribute('id', id);
+		group.setAttribute('class', className);
+		// group.setAttribute('transform', 'translate(50, 50)'); // Example transformation
+
+
+		// Move the SVG element into the group
+		var parent = el.parentNode;
+		if (parent) {
+
+			parent.replaceChild(group, el);
+			group.appendChild(el);
+
+			// Append the group to the SVG
+			parent.appendChild(group);
+		}
 	}
 
 	getDataFrom(el: HTMLElement | null): { _id: string, x: number, y: number, w: number, h: number } {
