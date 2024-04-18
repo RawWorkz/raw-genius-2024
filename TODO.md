@@ -8,8 +8,8 @@
   - [x] vrijdag 21-06-2024
   - [x] zaterdag 22-06-2024
 - [ ] hero
-  - [ ] hero design
-  - [ ] hero animatie
+  - [x] hero design
+  - [x] hero animatie
   - [ ] hero mobile
 - [ ] design
   - [ ] hero
@@ -22,6 +22,11 @@
 - [x] agenda
 - [ ] svg settings
 - [ ] svg script import
+- [x] Azure Static webapp
+- [x] logo website quick and dirty
+- [x] logo website
+- [x] herschrijf about
+- [ ] spreakers
 
 ## locatie
 

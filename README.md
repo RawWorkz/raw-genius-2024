@@ -6,6 +6,8 @@ RawGenius2024 website
 
 ![](icon.png)
 
+- https://happy-moss-08e11da03.5.azurestaticapps.net/
+
 ## Schedule changes
 
 edit one of the folling files
