@@ -26,6 +26,7 @@ export class ScheduleSessionInfo2Component {
 			obj.title = tag;
 			switch (tag.toLowerCase()) {
 				case 'discussion':
+				case 'ai':
 					// console.log("Discussion");
 					obj.color = 'text-bg-primary';
 					break;
@@ -36,11 +37,13 @@ export class ScheduleSessionInfo2Component {
 					break;
 				case 'tutorial':
 				case 'rawfit':
+				case 'platform':
 					// console.log("Tutorial");
 					obj.color = 'text-bg-success';
 					break;
 				case 'lecture':
 				case 'digital':
+				case 'security':
 					// console.log("Lecture");
 					obj.color = 'text-bg-danger';
 					break;

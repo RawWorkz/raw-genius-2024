@@ -8,7 +8,7 @@
       "_id": "",
       "start_time": "07:00",
       "end_time": "09:00",
-      "type": "",
+      "type": "ontbijt",
       "tag": ["food"],
       "description": "Ontbijt + uitchecken"
     },

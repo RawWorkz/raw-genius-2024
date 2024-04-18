@@ -16,7 +16,7 @@
 - [ ] date
 - [x] in je agenda
 - [x] locaties
-- [ ] planning
+- [x] planning
 - [ ] deadlines
 - [ ] locatie
 - [x] agenda
@@ -26,7 +26,8 @@
 - [x] logo website quick and dirty
 - [x] logo website
 - [x] herschrijf about
-- [ ] spreakers
+- [x] sprekers
+- [x] schema sprekers
 
 ## locatie
 
