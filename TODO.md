@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] https://www.nhow-hotels.com/nl/nhow-rotterdam
-- [ ] https://ical.marudot.com/
+- [x] https://www.nhow-hotels.com/nl/nhow-rotterdam
+- [x] https://ical.marudot.com/
 - [ ] generiek methode om meer en sneller dit soort websites te maken
 - [x] planning
   - [x] donderdag 20-06-2024
@@ -11,14 +11,14 @@
   - [x] hero design
   - [x] hero animatie
   - [ ] hero mobile
-- [ ] design
-  - [ ] hero
-- [ ] date
+- [x] design
+  - [x] hero
+- [x] date
 - [x] in je agenda
 - [x] locaties
 - [x] planning
-- [ ] deadlines
-- [ ] locatie
+- [x] deadlines
+- [x] locatie
 - [x] agenda
 - [ ] svg settings
 - [ ] svg script import
@@ -28,6 +28,8 @@
 - [x] herschrijf about
 - [x] sprekers
 - [x] schema sprekers
+- [x] logo font embedden
+- [x] embed font for heading
 
 ## locatie
 

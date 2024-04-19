@@ -1,0 +1,75 @@
+$radius: 200px;
+
+.hero-wrapper-2 {
+	position: relative;
+	// border: 1px solid pink;
+
+	.countdown-wrapper {
+		position: absolute;
+		text-align: center;
+		height: $radius;
+		width: $radius;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		background-color: rgba($color: white, $alpha: 0.5);
+		border: 10px solid rgba(51, 29, 90, 1);
+	}
+
+	.event-wrapper {
+		top: 20%;
+		right: 20%;
+	}
+	.register-wrapper {
+		top: 10%;
+		left: 40%;
+		// animation: animation-countdown-y 40s ease-in-out infinite;
+	}
+	.date-wrapper {
+		opacity: 0.8;
+		border-radius: 0.5rem;
+		position: absolute;
+		text-align: center;
+		display: block;
+		bottom: 10%;
+		left: 50%;
+		color: white;
+		padding: 20px;
+		background-color: rgba(50, 4, 89, 1);
+		background-image: linear-gradient(180deg, rgba(27, 24, 31, 0.5) 0%, rgba(50, 4, 89, 0.5) 85%);
+	}
+}
+
+@keyframes animation-countdown-y {
+	0% {
+		transform: translate(0px, +50px);
+	}
+	50% {
+		transform: translate(0px, -50px);
+	}
+	100% {
+		transform: translate(0px, +50px);
+	}
+}
+@keyframes animation-countdown-x {
+	0% {
+		transform: translate(+50px, 0px);
+	}
+	50% {
+		transform: translate(-50px, 0px);
+	}
+	100% {
+		transform: translate(+50px, 0px);
+	}
+}
+
+.countdown-animate-x {
+	// display: inline-block;
+	animation: animation-countdown-x 20s ease-in-out infinite;
+}
+.countdown-animate-y {
+	// display: inline;
+	animation: animation-countdown-y 1s ease-in-out infinite;
+}

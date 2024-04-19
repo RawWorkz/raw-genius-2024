@@ -3,11 +3,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
+// @include font-face-otf("Atlas-Grotesk-Regular-Light", "../../assets/fonts/AtlasGroteskWebLightRegular");
+
+@font-face {
+	font-family: "MonumentExtended-Regular";
+	src: url("/assets/fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "MonumentExtended-Ultrabold";
+	src: url("/assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
 // Font family names
 // (heading)
 $BebasNeue: "Bebas Neue";
 $Nunito: "Nunito";
 $Roboto: "Roboto Condensed";
+
+$heading: "MonumentExtended-Regular";
+$MonumentExtendedRegular: "MonumentExtended-Regular";
+$MonumentExtendedUltraBold: "MonumentExtended-Ultrabold";
 
 // font-family: 'Nunito', sans-serif;
 // font-family: 'PT Sans', sans-serif;
@@ -24,7 +39,7 @@ $serif: Merriweather, Georgia, "Times New Roman", serif;
 $mono: "Source Code Pro", Courier, mono;
 
 $body-font-family: $Nunito, $base-font-family;
-$heading-font-family: $BebasNeue, $base-font-family;
+$heading-font-family: $heading, $base-font-family;
 
 body {
 	font-family: $body-font-family;
@@ -53,6 +68,7 @@ h6,
 .h6 {
 	font-family: $heading-font-family;
 	line-height: 0.85;
+	text-transform: uppercase;
 }
 // bebas needs some extra
 

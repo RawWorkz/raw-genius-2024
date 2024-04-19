@@ -53,6 +53,7 @@ import { HeroRawGenius2024Component } from './components/hero-rawgenius-2024/her
 import { LocationEventComponent } from './components/location-event/location-event.component';
 import { LocationSleepComponent } from './components/location-sleep/location-sleep.component';
 import { OffcanvasComponent } from './components/offcanvas/offcanvas.component';
+import { ScheduleThreeComponent } from './components/schedule-three/schedule-three.component';
 import { ScheduleTwoComponent } from './components/schedule-two/schedule-two.component';
 import { SpringboardComponent } from './components/springboard/springboard.component';
 import { DebugIdComponent } from './elements/debug-id/debug-id.component';
@@ -71,7 +72,6 @@ import { SessionsPageComponent } from './pages/sessions-page/sessions-page.compo
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
 import { DebugDirective } from './shared/directives/debug.directive';
-import { ScheduleThreeComponent } from './components/schedule-three/schedule-three.component';
 
 
 
@@ -137,7 +137,7 @@ import { ScheduleThreeComponent } from './components/schedule-three/schedule-thr
 		PlattegrondPageComponent,
 		LocationPageComponent,
 		OffcanvasComponent,
-  ScheduleThreeComponent,
+		ScheduleThreeComponent,
 	],
 	imports: [
 		BrowserModule,
