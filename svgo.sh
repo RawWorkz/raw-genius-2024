@@ -13,8 +13,9 @@ svgo --pretty -i src/assets/images/logo/logo.svg -o src/assets/images/logo/logo.
 # rawgenius hero
 svgo --pretty -i src/assets/images/logo/rawgenius_logo_2024_rawgenius_2024_16_9.svg -o src/assets/images/logo/rawgenius_logo_2024_rawgenius_2024_16_9.min.svg
 
+# rawgenius 2024 hero, outline
+svgo --pretty -i src/assets/images/logo/rawgenius_logo_2024_rawgenius_2024_16_9___2.svg -o src/assets/images/logo/rawgenius_logo_2024_rawgenius_2024_16_9___2.min.svg
 
 # rawgenius 2024 logo
 svgo --pretty -i src/assets/images/logo/rawgenius_logo_2024.svg -o src/assets/images/logo/rawgenius_logo_2024.min.svg
-
 
