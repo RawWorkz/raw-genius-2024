@@ -2,102 +2,108 @@
 <div class="hero-wrapper-2">
     <app-hero-rawgenius-2024></app-hero-rawgenius-2024>
 
-    <div class="event-wrapper countdown-wrapper">
-        <div class="countdown-text-wrapper">
-            <h6>Days to<br>Event</h6>
-            <h3><app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count> </h3>
+    <div class="cta-wrapper event-wrapper countdown-animate-y-10">
+        <div class="countdown-wrapper countdown-animate-x-15">
+            <div class="countdown-text-wrapper">
+                <h6>Days to<br />Event</h6>
+                <h3>
+                    <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count>
+                </h3>
+            </div>
         </div>
     </div>
-    <span class="countdown-animate-y">
-        <span class="countdown-animate-x">
-            <div class="register-wrapper countdown-wrapper">
-                <div class="countdown-text-wrapper">
-                    <h6>Days to<br>Register</h6>
-                    <h3><app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count> </h3>
-                </div>
-            </div>
-        </span>
-    </span>
+    <!-- <span class="countdown-animate-yy"> -->
+    <!-- <span class="countdown-animate-xx"> -->
 
-    <div class="date-wrapper">
-        <h4>
-            20 t/m 22<br>juni 2024
-        </h4>
+    <div class="cta-wrapper register-wrapper countdown-animate-x-5">
+        <div class="countdown-wrapper countdown-animate-y-15">
+            <div class="countdown-text-wrapper">
+                <h6>Days to<br />Register</h6>
+                <h3>
+                    <app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count>
+                </h3>
+            </div>
+        </div>
     </div>
 
+    <div class="date-wrapper">
+        <h4>20 t/m 22<br />juni 2024</h4>
+    </div>
 </div>
-
 
 <section debug>
     <ul class="mb-0">
         <li>
-            <code>environment.production: {{this.isProduction}}</code>
+            <code>environment.production: {{ this.isProduction }}</code>
         </li>
         <li>
-            <code>environment.text: {{this.isProductionText}}</code>
+            <code>environment.text: {{ this.isProductionText }}</code>
         </li>
         <li>
-            <code>countdown deadline {{convertDate(registerDate)}}: {{toRegister}} <app-count [ms]="500" [from]="fromRegister" [to]="toRegister"></app-count></code>
+            <code>countdown deadline {{ convertDate(registerDate) }}: {{ toRegister }}
+        <app-count
+          [ms]="500"
+          [from]="fromRegister"
+          [to]="toRegister"
+        ></app-count
+      ></code>
         </li>
         <li>
-            <code>countdown event {{convertDate(eventDate)}}: {{toEvent}} <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count></code>
+            <code>countdown event {{ convertDate(eventDate) }}: {{ toEvent }}
+        <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count
+      ></code>
         </li>
         <li>
-            <code>deadline date registratie: {{this.registerDate | date:"MMM dd, yyyy 'at' hh:mm a"}}</code>
+            <code>deadline date registratie:
+        {{ this.registerDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
         </li>
         <li>
-            <code>date event: {{this.eventDate | date:"MMM dd, yyyy 'at' hh:mm a"}}</code>
+            <code>date event:
+        {{ this.eventDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
         </li>
     </ul>
 </section>
 
 <app-anchor id="about"></app-anchor>
 <section class="container container-style">
-    <app-title title="😎 RawGenius 2024" subtitle="where the best, become genius"></app-title>
+    <app-title title="RawGenius 2024" subtitle="where the best, become genius"></app-title>
     <div class="row justify-content-center">
         <div class="col-12 col-md-8">
             <p>
-                RawGenius 2024 belooft een evenement te zijn waar de beste van de beste samenkomen om hun genialiteit te
-                tonen en te
-                ontwikkelen. Het is niet zomaar een evenement; het is een unieke ervaring die deelnemers de kans biedt
-                om zichzelf te
-                laten horen, anderen te inspireren en te genieten van een fantastische sfeer vol plezier, hapjes en
-                drankjes¹.
+                RawGenius 2024 belooft een evenement te zijn waar de beste van de beste
+                samenkomen om hun genialiteit te tonen en te ontwikkelen. Het is niet
+                zomaar een evenement; het is een unieke ervaring die deelnemers de kans
+                biedt om zichzelf te laten horen, anderen te inspireren en te genieten
+                van een fantastische sfeer vol plezier, hapjes en drankjes¹.
             </p>
             <p>
-                De editie van 2024 zal naar verwachting een breed scala aan activiteiten bieden, waaronder boeiende
-                teambuildingactiviteiten en talloze mogelijkheden om te netwerken met gelijkgestemde professionals.
-                Deelnemers kunnen
-                zich verheugen op een programma vol inspirerende sprekers, innovatieve workshops en verrijkende
-                ervaringen die hen
-                zullen helpen om voorop te blijven lopen in de digitale wereld van morgen.
+                De editie van 2024 zal naar verwachting een breed scala aan activiteiten
+                bieden, waaronder boeiende teambuildingactiviteiten en talloze
+                mogelijkheden om te netwerken met gelijkgestemde professionals.
+                Deelnemers kunnen zich verheugen op een programma vol inspirerende
+                sprekers, innovatieve workshops en verrijkende ervaringen die hen zullen
+                helpen om voorop te blijven lopen in de digitale wereld van morgen.
             </p>
             <p>
-
-                RawGenius is meer dan alleen een naam; het is een belofte aan iedereen die streeft naar uitmuntendheid
-                in hun vakgebied.
-                Met een focus op de convergentie van technologie en creativiteit, biedt RawGenius een platform waar
-                ideeën tot leven
-                komen en de grenzen van wat mogelijk is worden verlegd.
+                RawGenius is meer dan alleen een naam; het is een belofte aan iedereen
+                die streeft naar uitmuntendheid in hun vakgebied. Met een focus op de
+                convergentie van technologie en creativiteit, biedt RawGenius een
+                platform waar ideeën tot leven komen en de grenzen van wat mogelijk is
+                worden verlegd.
             </p>
             <p>
-
-                Dus of je nu een IT-professional bent die op zoek is naar de nieuwste inzichten in cloud computing, een
-                ontwikkelaar die
-                geïnteresseerd is in de nieuwste software engineering technieken, of gewoon iemand die gepassioneerd is
-                over het
-                vormgeven van de toekomst, RawGenius 2024 is de plek waar je moet zijn. Bereid je voor om deel uit te
-                maken van een
-                evenement dat je niet alleen zal inspireren, maar je ook zal uitrusten met de kennis en tools om de
-                leider te worden in
-                jouw vakgebied. We zien je daar!
-
-
+                Dus of je nu een IT-professional bent die op zoek is naar de nieuwste
+                inzichten in cloud computing, een ontwikkelaar die geïnteresseerd is in
+                de nieuwste software engineering technieken, of gewoon iemand die
+                gepassioneerd is over het vormgeven van de toekomst, RawGenius 2024 is
+                de plek waar je moet zijn. Bereid je voor om deel uit te maken van een
+                evenement dat je niet alleen zal inspireren, maar je ook zal uitrusten
+                met de kennis en tools om de leider te worden in jouw vakgebied. We zien
+                je daar!
             </p>
         </div>
     </div>
 </section>
-
 
 <!--
 <app-anchor id="springboard"></app-anchor>
@@ -106,40 +112,35 @@
 </div>
  -->
 
-
 <!--
   <app-anchor id="register"></app-anchor>
   <section class="container container-style">
-    <app-title title="🚨 Claim your spot!" subtitle="deadline 28 mei 2023"></app-title>
+    <app-title title="Claim your spot!" subtitle="deadline 28 mei 2023"></app-title>
     <app-cta-alert></app-cta-alert>
 </section>
 -->
 
 <app-quote quote="Code is like humor. When you have to explain it, it’s bad." writer="Cory House"></app-quote>
 
-
-
-
 <!--
   <app-anchor id="speakers"></app-anchor>
   <section class="container container-style">
-    <app-title title="🔈 Calling all speakers!" subtitle="deadline 26 mei 2023"></app-title>
+    <app-title title="Calling all speakers!" subtitle="deadline 26 mei 2023"></app-title>
     <app-cta-speakers></app-cta-speakers>
 </section>
 -->
 
-
 <!--
 <app-anchor id="schedule"></app-anchor>
 <section class="container container-style">
-	<app-title title="🚃 Schedule" subtitle="be there or be square"></app-title>
+	<app-title title="Schedule" subtitle="be there or be square"></app-title>
 	<app-schedule></app-schedule>
 </section>
  -->
 
 <app-anchor id="programma"></app-anchor>
 <section class="container container-style">
-    <app-title title="🚃 Programma" subtitle="be there or be square"></app-title>
+    <app-title title="Programma" subtitle="be there or be square"></app-title>
     <app-schedule-three title="Donderdag 20 juni 2024"
         url="assets/2024/rawgenius_timetable_20240620.json"></app-schedule-three>
     <br class="mt-3" />
@@ -153,27 +154,23 @@
 <!--
 <app-anchor id="schedule"></app-anchor>
 <section class="container container-style">
-	<app-title title="🚃 Schedule" subtitle="be there or be square"></app-title>
+	<app-title title="Schedule" subtitle="be there or be square"></app-title>
 	<app-schedule></app-schedule>
 </section>
  -->
 
-
-
 <app-anchor id="speakers"></app-anchor>
 <section class="container container-style">
-    <app-title title="🔈 Sprekers!" subtitle="to be or not to be"></app-title>
+    <app-title title="Sprekers!" subtitle="to be or not to be"></app-title>
     <app-schedule-three title="Vrijdag 21 juni 2024"
         url="assets/2024/rawgenius_timetable_speakers_20240621.json"></app-schedule-three>
 </section>
 
-
 <app-anchor id="zet-um-in-je-agenda"></app-anchor>
 <section class="container container-style">
-    <app-title title="📅 Agenda" subtitle="Wees erbij, claim je agenda plek!"></app-title>
+    <app-title title="Agenda" subtitle="Wees erbij, claim je agenda plek!"></app-title>
     <app-calendar-ics file="/assets/ics/rawgenius2024.ics"></app-calendar-ics>
 </section>
-
 
 <!--
 <section class="container container-style" *featureFlag="'rawgenius_2024'">
@@ -182,11 +179,10 @@
 </section>
 -->
 
-
 <!--
 app-anchor id="people"></app-anchor>
 <section class="container container-style">
-	<app-title title="👽 The people"
+	<app-title title="The people"
 		subtitle="It’s their abilities, knowledge, and experience that can’t be replaced."></app-title>
 	<app-people></app-people>
 </section>
@@ -194,44 +190,29 @@ app-anchor id="people"></app-anchor>
 
 <!-- <app-gallery></app-gallery> -->
 
-
-
-
-
 <app-quote quote="Talk is cheap. Show me the code" writer="Linus Torvalds"></app-quote>
-
-
-
 
 <app-anchor id="eventvideo"></app-anchor>
 <section class="container container-style">
-    <app-title title="🍿 Impressie RawGenius 2022" subtitle="Als je er niet was, JAMMER joh!"></app-title>
+    <app-title title="Impressie RawGenius 2022" subtitle="Als je er niet was, JAMMER joh!"></app-title>
     <app-video-youtube [src]="'https://www.youtube-nocookie.com/embed//mfgetOcxutA'"></app-video-youtube>
-    <app-title title="🍿 Impressie RawGenius 2023" subtitle="Als je er niet was, JAMMER joh!"></app-title>
+    <app-title title="Impressie RawGenius 2023" subtitle="Als je er niet was, JAMMER joh!"></app-title>
 </section>
-
-
-
-
 
 <app-anchor id="contact"></app-anchor>
 
 <app-anchor id="location"></app-anchor>
 <app-anchor id="location-event"></app-anchor>
 
-
 <section class="container container-style mb-5">
-    <app-title title="📍 Locatie / Event" subtitle="play hard, sleep soft"></app-title>
+    <app-title title="Locatie / Event" subtitle="play hard, sleep soft"></app-title>
     <app-location-event></app-location-event>
 </section>
-
-
-
 
 <!--
 <section debug>
 	<section class="container container-style mb-5" *ngIf="data && data.eventInfo">
-		<app-title title="📍 Contact/map/the place/the how" subtitle="You need to be there"></app-title>
+		<app-title title="Contact/map/the place/the how" subtitle="You need to be there"></app-title>
 		<app-contact3 [data]="data.eventInfo"></app-contact3>
 	</section>
 </section>

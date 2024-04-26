@@ -18,15 +18,20 @@ $radius: 200px;
 		border: 10px solid rgba(51, 29, 90, 1);
 	}
 
+	.cta-wrapper {
+		position: absolute;
+	}
+
 	.event-wrapper {
 		top: 20%;
 		right: 20%;
 	}
+
 	.register-wrapper {
 		top: 10%;
 		left: 40%;
-		// animation: animation-countdown-y 40s ease-in-out infinite;
 	}
+
 	.date-wrapper {
 		opacity: 0.8;
 		border-radius: 0.5rem;
@@ -39,6 +44,49 @@ $radius: 200px;
 		padding: 20px;
 		background-color: rgba(50, 4, 89, 1);
 		background-image: linear-gradient(180deg, rgba(27, 24, 31, 0.5) 0%, rgba(50, 4, 89, 0.5) 85%);
+	}
+}
+
+.countdown-animate-x-5 {
+	animation: animation-countdown-xx 5s ease-in-out infinite;
+}
+.countdown-animate-x-10 {
+	animation: animation-countdown-xx 10s ease-in-out infinite;
+}
+.countdown-animate-x-15 {
+	animation: animation-countdown-xx 15s ease-in-out infinite;
+}
+.countdown-animate-y-5 {
+	animation: animation-countdown-yy 5s ease-in-out infinite;
+}
+.countdown-animate-y-10 {
+	animation: animation-countdown-yy 10s ease-in-out infinite;
+}
+.countdown-animate-y-15 {
+	animation: animation-countdown-yy 15s ease-in-out infinite;
+}
+
+@keyframes animation-countdown-yy {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(50px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes animation-countdown-xx {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(50px);
+	}
+	100% {
+		transform: translateX(0);
 	}
 }
 
@@ -67,7 +115,7 @@ $radius: 200px;
 
 .countdown-animate-x {
 	// display: inline-block;
-	animation: animation-countdown-x 20s ease-in-out infinite;
+	animation: animation-countdown-x 1s ease-in-out infinite;
 }
 .countdown-animate-y {
 	// display: inline;
