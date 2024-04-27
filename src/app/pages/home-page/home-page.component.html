@@ -2,7 +2,7 @@
 <div class="hero-wrapper-2">
     <app-hero-rawgenius-2024></app-hero-rawgenius-2024>
 
-    <div class="cta-wrapper event-wrapper countdown-animate-y-10">
+    <div class="cta-wrapper event-wrapper countdown-animate-y-10" *ngIf="!( toEvent<=0)">
         <div class="countdown-wrapper countdown-animate-x-15">
             <div class="countdown-text-wrapper">
                 <h6>Days to<br />Event</h6>
@@ -15,7 +15,7 @@
     <!-- <span class="countdown-animate-yy"> -->
     <!-- <span class="countdown-animate-xx"> -->
 
-    <div class="cta-wrapper register-wrapper countdown-animate-x-5">
+    <div class="cta-wrapper register-wrapper countdown-animate-x-5" *ngIf="!( toRegister<=0)">
         <div class="countdown-wrapper countdown-animate-y-15">
             <div class="countdown-text-wrapper">
                 <h6>Days to<br />Register</h6>
@@ -61,6 +61,9 @@
             <code>date event:
         {{ this.eventDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
         </li>
+
+        <li>{{this.fromRegister}} - {{this.toRegister}}</li>
+        <li>{{this.fromEvent}} - {{this.toEvent}}</li>
     </ul>
 </section>
 
