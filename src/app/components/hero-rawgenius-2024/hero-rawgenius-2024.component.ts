@@ -14,7 +14,6 @@ export class HeroRawGenius2024Component implements OnInit {
 
 	containerID = "container-hero-svg2";
 
-	@Input() isScreenSaver: boolean = false;
 
 	constructor(
 		private http: HttpClient,
