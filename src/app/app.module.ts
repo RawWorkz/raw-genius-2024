@@ -72,6 +72,7 @@ import { SessionsPageComponent } from './pages/sessions-page/sessions-page.compo
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
 import { DebugDirective } from './shared/directives/debug.directive';
+import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-page.component';
 
 
 
@@ -138,6 +139,7 @@ import { DebugDirective } from './shared/directives/debug.directive';
 		LocationPageComponent,
 		OffcanvasComponent,
 		ScheduleThreeComponent,
+  ScreensaverPageComponent,
 	],
 	imports: [
 		BrowserModule,

@@ -27,7 +27,6 @@ export class SchedulesPageComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.getData();
-
 	}
 
 	getData() {
