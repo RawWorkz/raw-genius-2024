@@ -1,10 +1,9 @@
 <section class="container-screensaver">
 
-	<!--
-	<div class="container">
-		<button class="btn btn-danger" (click)="onFullScreenClickHandler()">Toggle fullscreen</button>
-	</div>
-	-->
+	<button id="btn-fullscreen" class="btn btn-outline-danger" (click)="onFullScreenClickHandler()"
+		*ngIf="!this.isFullscreen">
+		<app-icons [icon]="this.isFullscreen ? 'compress' : 'fullscreen'"></app-icons>
+	</button>
 
 	<app-rawgenius-animation-svg (click)="this.onFullScreenClickHandler()"></app-rawgenius-animation-svg>
 </section>
