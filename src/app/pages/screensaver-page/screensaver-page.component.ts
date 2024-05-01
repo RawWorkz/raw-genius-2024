@@ -11,20 +11,12 @@ export class ScreensaverPageComponent implements OnInit {
 
   constructor() { }
 
-
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
-
-
-
+  ngOnInit(): void { }
 
   onFullScreenClickHandler() {
     console.log(window.document.fullscreenEnabled);
     console.log(window.document.fullscreenElement);
-
     if (!window.document.fullscreenElement) {
-
       document.body.requestFullscreen();
     } else {
       window.document.exitFullscreen();

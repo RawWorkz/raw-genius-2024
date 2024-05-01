@@ -73,6 +73,7 @@ import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.compo
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
 import { DebugDirective } from './shared/directives/debug.directive';
 import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-page.component';
+import { RawgeniusAnimationSvgComponent } from './elements/rawgenius-animation-svg/rawgenius-animation-svg.component';
 
 
 
@@ -140,6 +141,7 @@ import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-p
 		OffcanvasComponent,
 		ScheduleThreeComponent,
   ScreensaverPageComponent,
+  RawgeniusAnimationSvgComponent,
 	],
 	imports: [
 		BrowserModule,
