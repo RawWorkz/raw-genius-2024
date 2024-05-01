@@ -16,25 +16,4 @@
 		min-height: initial;
 		border: 1px solid pink;
 	}
-
-	#point-down {
-		width: 100px;
-		height: 100px;
-		font-size: 70px;
-		border-radius: 50%;
-		color: white;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		border: 7px solid white;
-		position: absolute;
-
-		bottom: 0px;
-		left: 50%;
-
-		transform: translate(-50%, 50%);
-		z-index: 100;
-	}
 }

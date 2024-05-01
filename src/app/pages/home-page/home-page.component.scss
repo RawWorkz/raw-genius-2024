@@ -19,6 +19,27 @@ $radius: 200px;
 		border: 10px solid rgba(51, 29, 90, 1);
 	}
 
+	#point-down {
+		width: 100px;
+		height: 100px;
+		font-size: 70px;
+		border-radius: 50%;
+		color: white;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		border: 7px solid white;
+		position: absolute;
+
+		bottom: 0px;
+		left: 50%;
+
+		transform: translate(-50%, 50%);
+		z-index: 100;
+	}
+
 	.cta-wrapper {
 		position: absolute;
 	}
