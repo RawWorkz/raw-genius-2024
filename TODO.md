@@ -1,5 +1,10 @@
 # TODO
 
+- [ ] nieuw programma
+- [ ] hero drukt naar buiten, scrollbalk fix
+
+---
+
 - [x] https://www.nhow-hotels.com/nl/nhow-rotterdam
 - [x] https://ical.marudot.com/
 - [ ] generiek methode om meer en sneller dit soort websites te maken
@@ -20,8 +25,8 @@
 - [x] deadlines
 - [x] locatie
 - [x] agenda
-- [ ] svg settings
-- [ ] svg script import
+- [x] svg settings
+- [x] svg script import
 - [x] Azure Static webapp
 - [x] logo website quick and dirty
 - [x] logo website

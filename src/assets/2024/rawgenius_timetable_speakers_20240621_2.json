@@ -1,0 +1,258 @@
+{
+  "start_date": "21-06-2024",
+  "end_date": "22-06-2024",
+  "description": "RawWorks",
+  "description2": "Sprekers RawGenius 2024 vrijdag 21 juni 2024",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "type": "kickoff",
+      "tag": [],
+      "description": "Kick Off RawGenius 2024",
+      "speakers": "Martijn van Deursen",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:00",
+      "end_time": "10:45",
+      "type": "keynote",
+      "tag": [],
+      "description": "Keynote",
+      "speakers": "Keynote",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:45",
+      "end_time": "10:50",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:50",
+      "end_time": "11:15",
+      "type": "",
+      "tag": ["hr"],
+      "description": "Madelon Nonkes",
+      "speakers": "Madelon Nonkes",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:15",
+      "end_time": "11:20",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:20",
+      "end_time": "11:45",
+      "type": "",
+      "tag": ["CodeKunstenaar"],
+      "description": "Matthijs Kamstra",
+      "speakers": "Matthijs Kamstra",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:45",
+      "end_time": "11:30",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:30",
+      "end_time": "11:55",
+      "type": "",
+      "tag": ["cloud"],
+      "description": "Aad Lutgert en Gerjon Kunst",
+      "speakers": "Aad Lutgert en Gerjon Kunst",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "type": "lunch",
+      "tag": ["food"],
+      "description": "Lunch",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:00",
+      "end_time": "13:05",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:05",
+      "end_time": "13:30",
+      "type": "",
+      "tag": ["misc"],
+      "description": "Jeroen Meppelink",
+      "speakers": "Jeroen Meppelink",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:30",
+      "end_time": "13:35",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:35",
+      "end_time": "14:00",
+      "type": "",
+      "tag": ["security"],
+      "description": "Michael van Dam en wellicht René Laas",
+      "speakers": "Michael van Dam en wellicht René Laas",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:00",
+      "end_time": "14:05",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:05",
+      "end_time": "14:30",
+      "type": "",
+      "tag": ["workspace"],
+      "description": "Aad Lutgert en Erwin Gerlich",
+      "speakers": "Aad Lutgert en Erwin Gerlich",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:30",
+      "end_time": "14:55",
+      "type": "",
+      "tag": [],
+      "description": "Pauze",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:55",
+      "end_time": "15:00",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:00",
+      "end_time": "15:25",
+      "type": "",
+      "tag": ["security", "cloud"],
+      "description": "René Laas en Bjorn de Bas",
+      "speakers": "René Laas en Bjorn de Bas",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:25",
+      "end_time": "15:30",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:30",
+      "end_time": "15:55",
+      "type": "",
+      "tag": ["cloud", "ai"],
+      "description": "Negin Nafissi en Vincent Brand en Gerjon Kunst",
+      "speakers": "Negin Nafissi en Vincent Brand en Gerjon Kunst",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:55",
+      "end_time": "16:00",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:00",
+      "end_time": "16:25",
+      "type": "",
+      "tag": ["workspace"],
+      "description": "Tristan Remkes en Arno van Dijk",
+      "speakers": "Tristan Remkes en Arno van Dijk",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:25",
+      "end_time": "16:30",
+      "type": "switch",
+      "tag": [],
+      "description": "Wissel",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:30",
+      "end_time": "16:55",
+      "type": "",
+      "tag": ["cloud", "platform"],
+      "description": "Mark Bonefaas en Jaap van Veldhuizen",
+      "speakers": "Mark Bonefaas en Jaap van Veldhuizen",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:55",
+      "end_time": "17:00",
+      "type": "afronding",
+      "tag": [],
+      "description": "Afronding",
+      "speakers": "Afronding",
+      "location": ""
+    }
+  ]
+}

@@ -32,7 +32,8 @@
 								{{shed.start_time}} - {{shed.end_time}}
 							</td>
 							<td>
-								<app-schedule-session-info2 [schedule]="shed"></app-schedule-session-info2>
+								<app-schedule-session-info2 [schedule]="shed"
+									*ngIf="shed.type != 'switch'"></app-schedule-session-info2>
 							</td>
 							<!-- <td class="text-nowrap _text-nowrap-md">{{shed.location}}</td> -->
 						</tr>

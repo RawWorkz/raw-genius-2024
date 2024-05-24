@@ -20,6 +20,10 @@ export class ScheduleSessionInfo2Component {
 		// console.log(changes);
 		// console.log(this.session?.tags);
 		if (!this.schedule) return;
+
+		if (this.schedule.description == this.schedule.speakers) {
+			this.schedule.speakers = '';
+		}
 		for (let i = 0; i < this.schedule.tag.length; i++) {
 			const tag = this.schedule.tag[i];
 			let obj: { title: string, color: string } = { title: '', color: '' };
