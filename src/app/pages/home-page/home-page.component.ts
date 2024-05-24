@@ -41,8 +41,8 @@ export class HomePageComponent implements OnInit {
 		// To calculate the no. of days between two dates
 		var difInDaysEvent = difInTimeEvent / (1000 * 3600 * 24);
 
-		console.log(difInDaysRegister);
-		console.log(difInDaysEvent);
+		// console.log(difInDaysRegister);
+		// console.log(difInDaysEvent);
 
 		this.fromRegister = Math.floor(difInDaysRegister) + 7;
 		this.toRegister = Math.floor(difInDaysRegister);

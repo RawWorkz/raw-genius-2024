@@ -1,6 +1,7 @@
 # TODO
 
-- [ ] nieuw programma
+- [x] nieuw programma
+- [x] title font-size voor mobile
 - [ ] hero drukt naar buiten, scrollbalk fix
 
 ---

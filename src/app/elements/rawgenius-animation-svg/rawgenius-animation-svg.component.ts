@@ -12,6 +12,8 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
 
   containerID = "container-hero-svg3";
 
+  ISDEBUG = false;
+
   constructor(
     private http: HttpClient,
   ) { }
@@ -29,7 +31,7 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
     let scope = this;
     this.http.get(url, { responseType: 'text' }).subscribe({
       next(data) {
-        // console.log(data);
+        if (scope.ISDEBUG) console.log(data);
         container.innerHTML = data;
         scope.extractData(data);
       },
@@ -41,7 +43,7 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
 
   extractData(data: string) {
     // console.log(data);
-    console.log(this.extractIDsFromSVG(data));
+    if (this.ISDEBUG) console.log(this.extractIDsFromSVG(data));
 
     let starID = 'path127';
     let planetID = 'g140';
@@ -220,8 +222,8 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
     let value = { _id: '', x: 0, y: 0, w: 0, h: 0 }
     if (!el) return value;
 
-    console.group('get data from element');
-    console.log(el);
+    if (this.ISDEBUG) console.group('get data from element');
+    if (this.ISDEBUG) console.log(el);
 
     let ii = el.getAttribute('id');
     let ww = el.getAttribute('width');
@@ -254,7 +256,7 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
       value.y = parseFloat(array[1]);
     }
     let domRect: DOMRect = el.getBoundingClientRect();
-    console.log(domRect);
+    if (this.ISDEBUG) console.log(domRect);
     // console.log(el.getBoundingClientRect());
     // console.log(el.offsetWidth);
     // console.log(el.offsetHeight);
@@ -263,7 +265,7 @@ export class RawgeniusAnimationSvgComponent implements OnInit {
       value.h = domRect.height;
     }
 
-    console.groupEnd();
+    if (this.ISDEBUG) console.groupEnd();
 
     return value;
   }

@@ -34,17 +34,21 @@ export class ScheduleSessionInfo2Component {
 					// console.log("Discussion");
 					obj.color = 'text-bg-primary';
 					break;
+				case 'voetbal':
 				case 'masterclass':
 				case 'workspace':
 					// console.log("Masterclass");
 					obj.color = 'text-bg-secondary';
 					break;
+				case 'misc':
 				case 'tutorial':
+				case 'hr':
 				case 'rawfit':
 				case 'platform':
 					// console.log("Tutorial");
 					obj.color = 'text-bg-success';
 					break;
+				case 'codekunstenaar':
 				case 'lecture':
 				case 'digital':
 				case 'security':
@@ -52,6 +56,7 @@ export class ScheduleSessionInfo2Component {
 					obj.color = 'text-bg-danger';
 					break;
 				case 'advertisement':
+				case 'drinks':
 				case 'diner':
 				case 'food':
 					// console.log("Advertisement");

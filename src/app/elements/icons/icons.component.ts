@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit, SimpleChanges } from '@angular/core';
 
 
 
@@ -167,6 +167,8 @@ export class IconsComponent implements OnInit {
 			case 'contact': this.icon = 'fa-volume-control-phone'; break;
 
 			case 'help': this.icon = 'fa-hand-paper-o'; break;
+
+			case 'screensaver': this.icon = 'fa-photo'; break;
 
 
 
