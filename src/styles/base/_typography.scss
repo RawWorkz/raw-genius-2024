@@ -51,8 +51,8 @@ body {
 
 	// color: $black;
 
-	// -webkit-font-smoothing: antialiased;
-	// -moz-osx-font-smoothing: grayscale;
+	// -webkit-font-lgoothing: antialiased;
+	// -moz-osx-font-lgoothing: grayscale;
 }
 h1,
 .h1,
@@ -70,31 +70,50 @@ h6,
 	line-height: 0.8;
 	text-transform: uppercase;
 }
-// bebas needs some extra
 
 h1,
 .h1 {
 	font-size: calc(6rem + 1.5vw);
+	@include respond-below(lg) {
+		font-size: calc(1.375rem + 1.5vw);
+	}
 }
 h2,
 .h2 {
 	font-size: calc(5rem + 0.9vw);
+	@include respond-below(lg) {
+		// font-size: calc(1.325rem + 0.9vw);
+		font-size: calc(2.5rem + 0.9vw);
+	}
 }
 h3,
 .h3 {
 	font-size: calc(4rem + 0.6vw);
+	@include respond-below(lg) {
+		// font-size: calc(1.3rem + 0.6vw);
+		font-size: calc(2rem + 0.6vw);
+	}
 }
 h4,
 .h4 {
 	font-size: calc(3rem + 0.3vw);
+	@include respond-below(lg) {
+		// font-size: calc(1.275rem + 0.3vw);
+		font-size: calc(1.5rem + 0.3vw);
+	}
 }
 h5,
 .h5 {
 	font-size: calc(2rem);
+	@include respond-below(lg) {
+		font-size: 1.25rem;
+	}
 }
 h6,
 .h6 {
 	font-size: calc(1rem);
+	@include respond-below(lg) {
+	}
 }
 
 .display-1,
