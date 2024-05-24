@@ -1,15 +1,19 @@
+@import "/src/styles/_default_import.scss";
+@import "/src/styles/base/_typography.scss";
+
 $radius: 200px;
+$radius-lg: 150px;
+$radius-sm: 100px;
 
 .hero-wrapper-2 {
 	position: relative;
 	margin-top: 55px;
+	// overflow: hidden;
 	// border: 1px solid pink;
 
 	.countdown-wrapper {
 		position: absolute;
 		text-align: center;
-		height: $radius;
-		width: $radius;
 		border-radius: 50%;
 		display: flex;
 		justify-content: center;
@@ -17,6 +21,17 @@ $radius: 200px;
 		color: black;
 		background-color: rgba($color: white, $alpha: 0.5);
 		border: 10px solid rgba(51, 29, 90, 1);
+		height: $radius;
+		width: $radius;
+
+		@include respond-below(lg) {
+			height: $radius-lg;
+			width: $radius-lg;
+		}
+		// @include respond-below(sm) {
+		// 	height: $radius-sm;
+		// 	width: $radius-sm;
+		// }
 	}
 
 	#point-down {
@@ -37,7 +52,7 @@ $radius: 200px;
 		left: 50%;
 
 		transform: translate(-50%, 50%);
-		z-index: 100;
+		z-index: 10090;
 	}
 
 	.cta-wrapper {
@@ -63,9 +78,16 @@ $radius: 200px;
 		bottom: 10%;
 		left: 50%;
 		color: white;
-		padding: 20px;
+		padding: 1rem;
 		background-color: rgba(50, 4, 89, 1);
 		background-image: linear-gradient(180deg, rgba(27, 24, 31, 0.5) 0%, rgba(50, 4, 89, 0.5) 85%);
+		h4 {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+		@include respond-below(lg) {
+			padding: 0.5rem;
+		}
 	}
 }
 

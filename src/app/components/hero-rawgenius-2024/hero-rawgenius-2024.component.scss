@@ -15,11 +15,12 @@
 	@include respond-below(lg) {
 		min-height: initial;
 		height: 40vh;
-		border: 1px solid pink;
+		// border: 1px solid pink;
 	}
+
 	@include respond-below(sm) {
 		min-height: initial;
 		height: 30vh;
-		border: 1px solid blue;
+		// border: 1px solid blue;
 	}
 }
