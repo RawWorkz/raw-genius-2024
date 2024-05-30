@@ -16,13 +16,11 @@ export class ScheduleTimeComponent implements OnInit, OnDestroy {
 
     currentTime: Date = new Date();
 
-
     currentRow!: HTMLTableRowElement;
 
     ISDEBUG: boolean = false;
 
     private intervalId: any;
-
 
     constructor(
         private sessionService: RawSessionsService
@@ -88,12 +86,12 @@ export class ScheduleTimeComponent implements OnInit, OnDestroy {
         var formattedDate = mm + '/' + dd + '/' + yyyy;
 
         if (this.ISDEBUG) {
-            this.currentTime = new Date(formattedDate + " " + "09:59");
+            this.currentTime = new Date(formattedDate + " " + "09:59"); // kickoff
             // this.currentTime = new Date(formattedDate + " " + "10:00");
-            // this.currentTime = new Date(formattedDate + " " + "10:46");
-            // this.currentTime = new Date(formattedDate + " " + "11:25");
-            this.currentTime = new Date(formattedDate + " " + "15:35");
-            this.currentTime = new Date(formattedDate + " " + "16:56");
+            this.currentTime = new Date(formattedDate + " " + "10:46"); // switch
+            this.currentTime = new Date(formattedDate + " " + "11:25"); // matthijs
+            // this.currentTime = new Date(formattedDate + " " + "15:35");
+            // this.currentTime = new Date(formattedDate + " " + "16:56"); // afronding
         }
 
         var formattedDate = mm + '/' + dd + '/' + yyyy;
@@ -139,6 +137,10 @@ export class ScheduleTimeComponent implements OnInit, OnDestroy {
                 el.style.top = `${yValue}px`;
             } else {
                 console.warn('Te vroeg of te laat');
+
+                // laat het gewoon maar in beeld zien
+                let windowHeight = document.body.clientHeight;
+                el.style.top = `${windowHeight / 2}px`;
             }
 
         }
