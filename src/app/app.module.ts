@@ -77,6 +77,7 @@ import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.compo
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
 import { TimeSchedulePageComponent } from './pages/time-schedule-page/time-schedule-page.component';
 import { DebugDirective } from './shared/directives/debug.directive';
+import { ScheduleTableComponent } from './components/schedule-table/schedule-table.component';
 
 
 
@@ -148,6 +149,7 @@ import { DebugDirective } from './shared/directives/debug.directive';
 		TimeSchedulePageComponent,
 		ScheduleTimeComponent,
 		TimeComponent,
+  ScheduleTableComponent,
 	],
 	imports: [
 		BrowserModule,
