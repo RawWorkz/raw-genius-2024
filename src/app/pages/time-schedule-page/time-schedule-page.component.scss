@@ -1,0 +1,21 @@
+.container-fullscreen {
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+	app-schedule-time {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+
+	#btn-fullscreen {
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
+	}
+}

@@ -9,7 +9,6 @@ import { IITimeline } from 'src/app/shared/models/data';
 })
 export class ScheduleTimeComponent {
 
-  @Input() title: string = 'RawWorks ScheduleComponent';
   @Input() url: string = 'assets/rawworks_genius_2023_timetable.json';
 
   data!: IITimeline;
