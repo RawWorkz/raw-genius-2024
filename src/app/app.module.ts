@@ -54,9 +54,12 @@ import { LocationEventComponent } from './components/location-event/location-eve
 import { LocationSleepComponent } from './components/location-sleep/location-sleep.component';
 import { OffcanvasComponent } from './components/offcanvas/offcanvas.component';
 import { ScheduleThreeComponent } from './components/schedule-three/schedule-three.component';
+import { ScheduleTimeComponent } from './components/schedule-time/schedule-time.component';
 import { ScheduleTwoComponent } from './components/schedule-two/schedule-two.component';
 import { SpringboardComponent } from './components/springboard/springboard.component';
+import { TimeComponent } from './components/time/time.component';
 import { DebugIdComponent } from './elements/debug-id/debug-id.component';
+import { RawgeniusAnimationSvgComponent } from './elements/rawgenius-animation-svg/rawgenius-animation-svg.component';
 import { ScheduleSessionInfoComponent } from './elements/schedule-session-info/schedule-session-info.component';
 import { ScheduleSessionInfo2Component } from './elements/schedule-session-info2/schedule-session-info2.component';
 import { AuthorisedLayoutComponent } from './layouts/authorised/authorised-layout/authorised-layout.component';
@@ -68,14 +71,12 @@ import { LocationPageComponent } from './pages/location-page/location-page.compo
 import { PlattegrondPageComponent } from './pages/plattegrond-page/plattegrond-page.component';
 import { ProgramPageComponent } from './pages/program-page/program-page.component';
 import { SchedulesPageComponent } from './pages/schedules-page/schedules-page.component';
+import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-page.component';
 import { SessionsPageComponent } from './pages/sessions-page/sessions-page.component';
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguide-buttons.component';
-import { DebugDirective } from './shared/directives/debug.directive';
-import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-page.component';
-import { RawgeniusAnimationSvgComponent } from './elements/rawgenius-animation-svg/rawgenius-animation-svg.component';
 import { TimeSchedulePageComponent } from './pages/time-schedule-page/time-schedule-page.component';
-import { ScheduleTimeComponent } from './components/schedule-time/schedule-time.component';
+import { DebugDirective } from './shared/directives/debug.directive';
 
 
 
@@ -142,10 +143,11 @@ import { ScheduleTimeComponent } from './components/schedule-time/schedule-time.
 		LocationPageComponent,
 		OffcanvasComponent,
 		ScheduleThreeComponent,
-  ScreensaverPageComponent,
-  RawgeniusAnimationSvgComponent,
-  TimeSchedulePageComponent,
-  ScheduleTimeComponent,
+		ScreensaverPageComponent,
+		RawgeniusAnimationSvgComponent,
+		TimeSchedulePageComponent,
+		ScheduleTimeComponent,
+		TimeComponent,
 	],
 	imports: [
 		BrowserModule,

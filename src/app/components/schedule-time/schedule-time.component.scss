@@ -56,3 +56,13 @@
 
 	// RGBA(255,193,7,var(--bs-bg-opacity,1)) !important;
 }
+
+.wrapper-schedule-time {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	#schedule-time {
+		position: relative;
+		top: -100px;
+	}
+}
