@@ -130,7 +130,7 @@
       "end_time": "14:00",
       "type": "",
       "tag": ["security"],
-      "description": "Michael van Dam en wellicht René Laas",
+      "description": "Conditional Access",
       "speakers": "Michael van Dam en wellicht René Laas",
       "location": ""
     },
@@ -220,7 +220,7 @@
       "end_time": "16:25",
       "type": "",
       "tag": ["workspace"],
-      "description": "Tristan Remkes en Arno van Dijk",
+      "description": "Het sneller en slimmer brouwen van Bier!",
       "speakers": "Tristan Remkes en Arno van Dijk",
       "location": ""
     },
@@ -240,7 +240,7 @@
       "end_time": "16:55",
       "type": "",
       "tag": ["cloud", "platform"],
-      "description": "Mark Bonefaas en Jaap van Veldhuizen",
+      "description": "5 jaar RawWorks",
       "speakers": "Mark Bonefaas en Jaap van Veldhuizen",
       "location": ""
     },
