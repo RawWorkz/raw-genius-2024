@@ -45,29 +45,21 @@
         </li>
         <li>
             <code>countdown deadline {{ convertDate(registerDate) }}: {{ toRegister }}
-        <app-count
-          [ms]="500"
-          [from]="fromRegister"
-          [to]="toRegister"
-        ></app-count
-      ></code>
+        <app-count [ms]="500" [from]="fromRegister"[to]="toRegister"></app-count></code>
         </li>
         <li>
             <code>countdown event {{ convertDate(eventDate) }}: {{ toEvent }}
-        <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count
-      ></code>
+        <app-count [ms]="500" [from]="fromEvent" [to]="toEvent"></app-count></code>
         </li>
         <li>
-            <code>deadline date registratie:
-        {{ this.registerDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
+            <code>deadline date registratie:       {{ this.registerDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
         </li>
         <li>
-            <code>date event:
-        {{ this.eventDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
+            <code>date event:       {{ this.eventDate | date : "MMM dd, yyyy 'at' hh:mm a" }}</code>
         </li>
 
-        <li>{{this.fromRegister}} - {{this.toRegister}}</li>
-        <li>{{this.fromEvent}} - {{this.toEvent}}</li>
+        <li>(fromRegister _ toRegister) : {{this.fromRegister}} _ {{this.toRegister}}</li>
+        <li>(fromEvent _ toEvent) : {{this.fromEvent}} _ {{this.toEvent}}</li>
     </ul>
 </section>
 

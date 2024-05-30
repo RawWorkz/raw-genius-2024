@@ -1,0 +1,58 @@
+@import "../../../styles/default_import";
+
+.text-nowrap-xs {
+	@include respond-above(xs) {
+		white-space: nowrap;
+		// border: 1px solid pink;
+	}
+}
+.text-nowrap-sm {
+	@include respond-above(sm) {
+		white-space: nowrap;
+		// border: 1px solid green;
+	}
+}
+.text-nowrap-md {
+	@include respond-above(md) {
+		white-space: nowrap;
+		// border: 1px solid red;
+	}
+}
+.text-nowrap-lg {
+	@include respond-above(lg) {
+		white-space: nowrap;
+		// border: 1px solid blue;
+	}
+}
+.text-nowrap-xl {
+	@include respond-above(xl) {
+		white-space: nowrap;
+		// border: 1px solid yellow;
+	}
+}
+
+.table-tr-sponsor {
+	// background-color: red;
+}
+.table-tr-inloop,
+.table-tr-afronding,
+.table-tr-pause {
+	// background-color: #282828;
+	background-color: rgba($color: #000000, $alpha: 0.2);
+}
+.table-tr-switch {
+	// background-color: #383838;
+	background-color: rgba($color: #ffffff, $alpha: 0.1);
+}
+
+.table-tr-food,
+.table-tr-diner,
+.table-tr-ontbijt,
+.table-tr-lunch {
+	// --bs-warning: #ffc107;
+	// background-color: #383838;
+	// background-color: rgba($color: var(--bs-yellow), $alpha: 0.1);
+	background-color: rgba($color: #ffc107, $alpha: 0.1);
+
+	// RGBA(255,193,7,var(--bs-bg-opacity,1)) !important;
+}

@@ -102,6 +102,9 @@ export class IconsComponent implements OnInit {
 
 
 
+
+
+
 			case 'videooverviewpagecomponent': this.icon = 'fa-video-camera'; break;
 			case 'herooverviewpagecomponent': this.icon = 'fa-send-o'; break;
 			case 'timeline': this.icon = 'fa-th'; break;
@@ -170,7 +173,7 @@ export class IconsComponent implements OnInit {
 
 			case 'screensaver': this.icon = 'fa-photo'; break;
 
-
+			case 'timeschedule': this.icon = 'fa-clock-o'; break;
 
 			// only for now, remove in the future
 			case 'level 2 page': this.icon = 'fa-circle'; break;

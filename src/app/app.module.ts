@@ -74,6 +74,8 @@ import { StyleguideButtonsComponent } from './pages/styleguide-buttons/styleguid
 import { DebugDirective } from './shared/directives/debug.directive';
 import { ScreensaverPageComponent } from './pages/screensaver-page/screensaver-page.component';
 import { RawgeniusAnimationSvgComponent } from './elements/rawgenius-animation-svg/rawgenius-animation-svg.component';
+import { TimeSchedulePageComponent } from './pages/time-schedule-page/time-schedule-page.component';
+import { ScheduleTimeComponent } from './components/schedule-time/schedule-time.component';
 
 
 
@@ -142,6 +144,8 @@ import { RawgeniusAnimationSvgComponent } from './elements/rawgenius-animation-s
 		ScheduleThreeComponent,
   ScreensaverPageComponent,
   RawgeniusAnimationSvgComponent,
+  TimeSchedulePageComponent,
+  ScheduleTimeComponent,
 	],
 	imports: [
 		BrowserModule,

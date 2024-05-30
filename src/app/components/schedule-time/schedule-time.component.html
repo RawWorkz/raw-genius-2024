@@ -1,0 +1,48 @@
+<!--
+	<div class="container">
+		<div class="row">
+
+			<div class="col my-1 text-nowrap-xs">text-nowrap-xs</div>
+			<div class="col my-1 text-nowrap-sm">text-nowrap-sm</div>
+			<div class="col my-1 text-nowrap-md">text-nowrap-md</div>
+			<div class="col my-1 text-nowrap-lg">text-nowrap-lg</div>
+			<div class="col my-1 text-nowrap-xl">text-nowrap-xl</div>
+		</div>
+	</div>
+
+-->
+
+<section class="container-schedule">
+	<div class="container w-100 h-100" style="border: 1px solid pink;">
+
+		<div class="row justify-content-center">
+			<div class="col-6 d-none d-lg-block">
+				<app-rawgenius-animation-svg></app-rawgenius-animation-svg>
+			</div>
+			<div class="col-6 col-xl-6">
+				<h4>{{this.title}}</h4>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th scope="col" style="width:20px">Tijd</th>
+							<th scope="col">Omschrijving</th>
+							<!-- <th scope="col">Zaal</th> -->
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let shed of data?.schedule; let i = index" [ngClass]="'table-tr-' + shed.type">
+							<td class="_text-nowrap _text-wrap text-nowrap-md">
+								{{shed.start_time}} - {{shed.end_time}}
+							</td>
+							<td>
+								<app-schedule-session-info2 [schedule]="shed"
+									*ngIf="shed.type != 'switch'"></app-schedule-session-info2>
+							</td>
+							<!-- <td class="text-nowrap _text-nowrap-md">{{shed.location}}</td> -->
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
