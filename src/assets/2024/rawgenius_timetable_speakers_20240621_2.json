@@ -67,7 +67,7 @@
     {
       "_id": "",
       "start_time": "11:45",
-      "end_time": "11:30",
+      "end_time": "11:50",
       "type": "switch",
       "tag": [],
       "description": "Wissel",
@@ -76,8 +76,8 @@
     },
     {
       "_id": "",
-      "start_time": "11:30",
-      "end_time": "11:55",
+      "start_time": "11:50",
+      "end_time": "12:15",
       "type": "",
       "tag": ["cloud", "ai"],
       "description": "Microsoft Copilot wat is daar nu eigenlijk zo leuk aan?",
@@ -86,7 +86,7 @@
     },
     {
       "_id": "",
-      "start_time": "12:00",
+      "start_time": "12:15",
       "end_time": "13:00",
       "type": "lunch",
       "tag": ["food"],
