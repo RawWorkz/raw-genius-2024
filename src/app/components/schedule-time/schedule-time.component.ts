@@ -109,6 +109,8 @@ export class ScheduleTimeComponent implements OnInit, OnDestroy {
                     var startTime = new Date(formattedDate + ' ' + timeRange[0]);
                     var endTime = new Date(formattedDate + ' ' + timeRange[1]);
 
+                    rows[i].classList.remove('highlight');
+
                     // Check if current time is within the start and end time
                     if (this.currentTime >= startTime && this.currentTime < endTime) {
                         // Highlight the row
