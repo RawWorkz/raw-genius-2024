@@ -6,41 +6,41 @@
   "schedule": [
     {
       "_id": "",
-      "start_time": "17:30",
-      "end_time": "18:00",
-      "type": "",
-      "tag": [""],
-      "description": "Verzamelen hotel (NHow Rotterdam)",
-      "speakers": "",
-      "location": ""
-    },
-    {
-      "_id": "",
-      "start_time": "18:00",
-      "end_time": "19:00",
-      "type": "",
-      "tag": [""],
-      "description": "Busreis naar een verrassing",
-      "speakers": "",
-      "location": ""
-    },
-    {
-      "_id": "",
       "start_time": "19:00",
-      "end_time": "22:00",
-      "type": "diner",
-      "tag": ["food"],
-      "description": "Feest + eten",
+      "end_time": "19:30",
+      "type": "",
+      "tag": [""],
+      "description": "Verzamelen hotel (NHow Rotterdam) & inchecken",
       "speakers": "",
       "location": ""
     },
     {
       "_id": "",
-      "start_time": "22:00",
+      "start_time": "19:30",
+      "end_time": "20:00",
+      "type": "",
+      "tag": [""],
+      "description": "Reis naar activiteit",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "20:00",
+      "end_time": "22:30",
+      "type": "diner",
+      "tag": ["activiteit"],
+      "description": "Activiteit",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "22:30",
       "end_time": "23:00",
       "type": "travel",
       "tag": [""],
-      "description": "Busreis naar hotel (NHow Rotterdam)",
+      "description": "Reis naar hotel (NHow Rotterdam)",
       "speakers": "",
       "location": ""
     }
