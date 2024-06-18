@@ -8,9 +8,9 @@
       "_id": "",
       "start_time": "07:30",
       "end_time": "08:30",
-      "type": "ontbijt",
-      "tag": ["food"],
-      "description": "Ontbijt",
+      "type": "",
+      "tag": ["rawfit"],
+      "description": "Sporten",
       "speakers": "",
       "location": ""
     },
@@ -18,9 +18,9 @@
       "_id": "",
       "start_time": "08:30",
       "end_time": "09:30",
-      "type": "",
-      "tag": ["rawfit"],
-      "description": "Sporten",
+      "type": "ontbijt",
+      "tag": ["food"],
+      "description": "Ontbijt",
       "speakers": "",
       "location": ""
     },
@@ -60,7 +60,7 @@
       "end_time": "18:00",
       "type": "",
       "tag": [""],
-      "description": "Verzamelen lobby + reis naar locatie",
+      "description": "Verzamelen + wandelen naar dinerlocatie",
       "speakers": "",
       "location": ""
     },
@@ -77,23 +77,14 @@
     {
       "_id": "",
       "start_time": "20:45",
-      "end_time": "23:00",
+      "end_time": "24:00",
       "type": "",
-      "tag": ["voetbal"],
+      "tag": ["voetbal", "drinks"],
       "description": "Nederland vs Frankrijk + borrel",
       "speakers": "",
       "location": ""
     },
-    {
-      "_id": "",
-      "start_time": "23:00",
-      "end_time": "23:58",
-      "type": "",
-      "tag": ["drinks"],
-      "description": "Borrel",
-      "speakers": "",
-      "location": ""
-    },
+
     {
       "_id": "",
       "start_time": "23:58",
