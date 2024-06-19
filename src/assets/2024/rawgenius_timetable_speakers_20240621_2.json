@@ -21,7 +21,7 @@
       "type": "keynote",
       "tag": [],
       "description": "Keynote",
-      "speakers": "Keynote",
+      "speakers": "Christiaan Beek",
       "location": ""
     },
     {
@@ -129,11 +129,12 @@
       "start_time": "13:35",
       "end_time": "14:00",
       "type": "",
-      "tag": ["security"],
-      "description": "Conditional Access",
-      "speakers": "Michael van Dam en wellicht René Laas",
+      "tag": ["workspace"],
+      "description": "Manage van Apples tot Zebras met Intune",
+      "speakers": "Aad Lutgert en Gerjon Kunst",
       "location": ""
     },
+
     {
       "_id": "",
       "start_time": "14:00",
@@ -144,14 +145,15 @@
       "speakers": "",
       "location": ""
     },
+
     {
       "_id": "",
       "start_time": "14:05",
       "end_time": "14:30",
       "type": "",
-      "tag": ["workspace"],
-      "description": "Manage van Apples tot Zebras met Intune",
-      "speakers": "Aad Lutgert en Erwin Gerlich",
+      "tag": ["security"],
+      "description": "Conditional Access",
+      "speakers": "Michael van Dam en René Laas",
       "location": ""
     },
     {

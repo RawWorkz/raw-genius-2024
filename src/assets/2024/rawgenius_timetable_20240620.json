@@ -20,7 +20,7 @@
       "end_time": "20:00",
       "type": "",
       "tag": [""],
-      "description": "Reis naar activiteit",
+      "description": "Vertrek bus naar Hollywood Event Center in Rotterdam (tegenover de kuip)",
       "speakers": "",
       "location": ""
     },
@@ -28,7 +28,7 @@
       "_id": "",
       "start_time": "20:00",
       "end_time": "22:30",
-      "type": "diner",
+      "type": "",
       "tag": ["activiteit"],
       "description": "Activiteit",
       "speakers": "",
