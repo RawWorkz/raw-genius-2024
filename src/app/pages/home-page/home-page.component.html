@@ -195,7 +195,7 @@ app-anchor id="people"></app-anchor>
 <section class="container container-style">
     <app-title title="Impressie RawGenius 2022" subtitle="Als je er niet was, JAMMER joh!"></app-title>
     <app-video-youtube [src]="'https://www.youtube-nocookie.com/embed//mfgetOcxutA'"></app-video-youtube>
-    <app-title title="Impressie RawGenius 2023" subtitle="Als je er niet was, JAMMER joh!"></app-title>
+    <!-- <app-title title="Impressie RawGenius 2023" subtitle="Als je er niet was, JAMMER joh!"></app-title> -->
 </section>
 
 <app-anchor id="contact"></app-anchor>
@@ -204,10 +204,15 @@ app-anchor id="people"></app-anchor>
 <app-anchor id="location-event"></app-anchor>
 
 <section class="container container-style mb-5">
-    <app-title title="Locatie / Event" subtitle="play hard, sleep soft"></app-title>
+    <app-title title="Locatie / Activiteiten" subtitle="play hard, ..."></app-title>
     <app-location-event></app-location-event>
 </section>
 
+<app-anchor id="location-sleep"></app-anchor>
+<section class="container container-style mb-5">
+    <app-title title="Hotel / Event" subtitle="..., sleep soft"></app-title>
+    <app-location-sleep></app-location-sleep>
+</section>
 <!--
 <section debug>
 	<section class="container container-style mb-5" *ngIf="data && data.eventInfo">
