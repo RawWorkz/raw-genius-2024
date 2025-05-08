@@ -1,6 +1,6 @@
-# raw-genius-2024
+# raw-genius-2025
 
-RawGenius2024 website
+RawGenius2025 website
 
 <!-- ![](rawworks.png) -->
 
