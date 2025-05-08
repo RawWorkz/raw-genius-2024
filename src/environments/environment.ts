@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-	production: true,
+	production: false,
 	text: 'This is development environment',
 	// Development Stapi Base URL
 	api_base_url: "http://localhost:1337",

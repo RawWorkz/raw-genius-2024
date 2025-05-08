@@ -1,0 +1,68 @@
+{
+  "start_date": "20-06-2025",
+  "end_date": "21-06-2025",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2025 vrijdag 20 juni 2025",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "9:00",
+      "end_time": "9:30",
+      "type": "",
+      "tag": [""],
+      "description": "Inloop",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "9:30",
+      "end_time": "12:30",
+      "type": "",
+      "tag": [""],
+      "description": "RawGenius kennissessies",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "type": "food",
+      "tag": ["food"],
+      "description": "Lunch",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:30",
+      "end_time": "16:00",
+      "type": "",
+      "tag": [""],
+      "description": "RawGenius kennissessies",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "type": "",
+      "tag": [""],
+      "description": "Inchecken & Opfrissen & evt. wandeling",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "18:00",
+      "end_time": "23:59",
+      "type": "",
+      "tag": ["activiteit"],
+      "description": "Avondprogramma",
+      "speakers": "",
+      "location": ""
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "start_date": "21-06-2024",
+  "end_date": "22-06-2024",
+  "description": "RawWorks",
+  "description2": "Sprekers RawGenius 2025 vrijdag 21 juni 2025",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "09:30",
+      "end_time": "10:00",
+      "type": "kickoff",
+      "tag": [],
+      "description": "Start en keynote RawGenius 2025",
+      "speakers": "Martijn van Deursen",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "type": "",
+      "tag": ["platform"],
+      "description": "How to manage your environment via infra structure as code",
+      "speakers": "Jeroen Meppelink",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:30",
+      "end_time": "11:00",
+      "type": "",
+      "tag": ["platform"],
+      "description": "Waarom de wereld gebouwd is op Kubernetes",
+      "speakers": "Stefan Lievers & Stan ten Thije",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "type": "",
+      "tag": ["misc"],
+      "description": "?????",
+      "speakers": "Niels",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "11:30",
+      "end_time": "12:15",
+      "type": "",
+      "tag": ["hr"],
+      "description": "Persoonlijk Energiemanagement",
+      "speakers": "Mark Strampel en Chantalle Weemaes",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "12:15",
+      "end_time": "12:30",
+      "type": "",
+      "tag": ["misc"],
+      "description": "Foto moment",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "type": "lunch",
+      "tag": ["food"],
+      "description": "Lunch",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "13:30",
+      "end_time": "14:00",
+      "type": "",
+      "tag": ["security"],
+      "description": "NIS2",
+      "speakers": "Kees van de Vliert",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:00",
+      "end_time": "14:30",
+      "type": "",
+      "tag": ["platform"],
+      "description": "Terraform Modules",
+      "speakers": "Matti Gruszczynski",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "14:30",
+      "end_time": "15:00",
+      "type": "",
+      "tag": ["workspace"],
+      "description": "Get away from VDI with Private Access!",
+      "speakers": "Tristan Remkes & Erwin Gerlich",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:00",
+      "end_time": "15:30",
+      "type": "",
+      "tag": ["rawfit"],
+      "description": "Waar sport en IT samenkomen",
+      "speakers": "Jan-Paul Plaisier",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "15:30",
+      "end_time": "16:00",
+      "type": "",
+      "tag": ["data", "ai"],
+      "description": "Microsoft Fabric Data warehouse, a quick introduction",
+      "speakers": "Lisandro de Cuba",
+      "location": ""
+    }
+  ]
+}

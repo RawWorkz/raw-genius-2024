@@ -1,0 +1,54 @@
+{
+  "start_date": "21-06-2025",
+  "end_date": "22-06-2025",
+  "description": "RawWorks",
+  "description2": "Timetable RawGenius 2025 zaterdag 21 juni 2025",
+  "schedule": [
+    {
+      "_id": "",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "type": "",
+      "tag": ["rawfit"],
+      "description": "Sporten",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "08:30",
+      "end_time": "09:45",
+      "type": "ontbijt",
+      "tag": ["food"],
+      "description": "Ontbijt",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "type": "",
+      "tag": [],
+      "description": "Uitchecken",
+      "speakers": "",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "type": "",
+      "tag": ["activiteit"],
+      "description": "Team building activiteit"
+    },
+    {
+      "_id": "",
+      "start_time": "12:00",
+      "end_time": "12:05",
+      "type": "",
+      "tag": [],
+      "description": "Einde"
+    }
+  ]
+}

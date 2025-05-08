@@ -1,0 +1,43 @@
+09:30 -10:00	start en keynote
+10:00 - 10:30	Jeroen
+10:30 - 11:00	Stefan & Stan
+11:00 - 11:30	Niels
+11:30 - 12:15	Mark (Extern)
+12:15 - 12:30	Foto moment
+12:30 - 13:30	Lunch
+13:30 - 14:00	Kees
+14:00 - 14:30	Matti
+14:30 - 15:00	Erwin & Tristan
+15:00 - 15:30	Jan-paul
+15:30 - 16:00	Lisandro
+
+
+
+
+-----
+
+
+
+1	Jeroen Meppelink		How to manage your environment via infra structure as code
+2	Kees van de Vliert		NIS2
+3	Matti Gruszczynski			Terraform Modules
+4	Mark Strampel			Persoonlijk Energiemanagement (door externe spreker Chantalle Weemaes)
+5	Lisandro de Cuba			Microsoft Fabric Data warehouse, a quick introduction
+6	Jan-Paul Plaisier			Waar sport en IT samenkomen
+7	Stefan Lievers & Stan ten Thije		Waarom de wereld gebouwd is op Kubernetes
+8 	Tristan Remkes & Erwin Gerlich		Get away from VDI with Private Access!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

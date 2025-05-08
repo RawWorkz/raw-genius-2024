@@ -14,7 +14,7 @@ export class HomePageComponent implements OnInit {
 	data!: IRoot;
 
 	registerDate = new Date(2024, 3, 30, 23, 59);
-	eventDate = new Date(2024, 5, 20, 23, 59);
+	eventDate = new Date(2025, 5, 20, 23, 59);
 	currentDate = new Date();
 
 	fromRegister = 10;
