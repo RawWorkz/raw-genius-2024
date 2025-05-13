@@ -50,8 +50,8 @@
       "end_time": "12:00",
       "type": "",
       "tag": ["security"],
-      "description": "????",
-      "speakers": "Michael van Dam",
+      "description": "Zelf assessment als voorbereiding op de dag.",
+      "speakers": "Michael van Dam en Bas Pijpstra",
       "location": ""
     },
     {
@@ -60,7 +60,7 @@
       "end_time": "12:30",
       "type": "",
       "tag": ["workspace"],
-      "description": "????",
+      "description": "Discover Enterprise App Management in Intune",
       "speakers": "Arno van Dijk",
       "location": ""
     },
