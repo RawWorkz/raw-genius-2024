@@ -39,31 +39,32 @@
       "start_time": "11:00",
       "end_time": "11:30",
       "type": "",
-      "tag": ["misc"],
+      "tag": ["platform"],
       "description": "Hoe wij met 3 developers 4000+ AVD gebruikers bedienen",
-      "speakers": "Niels",
+      "speakers": "Niels Reloe",
       "location": ""
     },
     {
       "_id": "",
       "start_time": "11:30",
-      "end_time": "12:15",
+      "end_time": "12:00",
       "type": "",
-      "tag": ["hr"],
-      "description": "Persoonlijk Energiemanagement",
-      "speakers": "Mark Strampel en Chantalle Weemaes",
+      "tag": ["security"],
+      "description": "????",
+      "speakers": "Michael van Dam",
       "location": ""
     },
     {
       "_id": "",
-      "start_time": "12:15",
+      "start_time": "12:00",
       "end_time": "12:30",
       "type": "",
-      "tag": ["misc"],
-      "description": "Foto moment",
-      "speakers": "",
+      "tag": ["workspace"],
+      "description": "????",
+      "speakers": "Arno van Dijk",
       "location": ""
     },
+
     {
       "_id": "",
       "start_time": "12:30",
@@ -122,6 +123,16 @@
       "tag": ["data", "ai"],
       "description": "Microsoft Fabric Data warehouse, a quick introduction",
       "speakers": "Lisandro de Cuba",
+      "location": ""
+    },
+    {
+      "_id": "",
+      "start_time": "16:00",
+      "end_time": "16:15",
+      "type": "",
+      "tag": ["misc"],
+      "description": "Foto moment, afronden en bedankjes sprekers uitdelen",
+      "speakers": "",
       "location": ""
     }
   ]
